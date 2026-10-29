@@ -1,0 +1,14 @@
+import B334.MethodK.Rows.R1D
+
+set_option maxRecDepth 1000000
+set_option maxHeartbeats 0
+
+/-! # Method K, row 1: K-W chunk 0 of 1 (masks 0 … 15). GENERATED; do not edit. -/
+
+namespace B334.MethodK.R1
+open B334.MethodK B334.Core
+
+theorem kW0 : B334.Core.allLT 16 (fun i => kwAt M0r Nr (1 * 0) Yz 4 4 true (0 * 16 + i)) = true := by
+  decide +kernel
+
+end B334.MethodK.R1

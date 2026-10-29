@@ -1,0 +1,711 @@
+c	dim	basis	seeded	wang	kind	flatrank	rows707	lb707	rows708	lb708	lb_used	tv2	route	cert_lb	routes_all	detail	rb_L	rb_mono	lift_L	raised_old	raised_new	raised_L	deg_e	deg_q	deg_s	deg_j	seeded_j	tv2_j	cert_j	deg_ok	deg_ok_tv2	pilot	raisedS	flags
+0	9	1,2,4,8,16,32,64,128,256	0	0	flatten_matrix_proof	0	1	0	1	0	0	0	flat	0	flat:0	flatrank=0 wang=0	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+1	8	1,2,4,8,16,32,64,128	4	4	flatten_matrix_proof	4	25	4	21	4	4	4	flat	4	flat:4	flatrank=4 wang=4	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2	8	1,2,4,8,16,64,160,256	8	8	flatten_matrix_proof	8	142	8	154	8	8	8	flat	8	flat:8	flatrank=8 wang=8	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+3	8	1,2,8,20,32,68,128,256	12	12	flatten_matrix_proof	12	88	12	80	12	12	12	flat	12	flat:12	flatrank=12 wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+4	7	1,2,4,8,16,32,64	8	8	flatten_matrix_proof	8	13	8	7	8	8	8	flat	8	flat:8	flatrank=8 wang=8	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+5	7	1,2,4,8,16,64,128	8	8	forced_product_proof	8	13	8	7	8	8	8	flat	8	flat:8	flatrank=8 wang=8	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=7 PASS COMPLETE leaves 2: UNSAT 2 ABORT_left 0 SAT 0	-	-
+6	7	1,2,4,8,16,64,160	12	12	forced_product_proof	8	105	12	105	12	12	12	methodK	12	methodK:12	forced product (Lean method K), wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=11 PASS COMPLETE leaves 4: UNSAT 3 ABORT_left 1 SAT 0 (limits 60)	-	-
+7	7	1,2,4,8,16,64,256	8	8	flatten_matrix_proof	8	222	8	168	8	8	8	flat	8	flat:8	flatrank=8 wang=8	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+8	7	1,2,4,8,16,96,256	12	12	flatten_matrix_proof	12	420	12	420	12	12	12	flat	12	flat:12	flatrank=12 wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+9	7	1,2,4,8,64,160,304	12	12	backtracking_proof	8	22	12	28	12	12	12	routeB	12	routeB:12	L=11 vr PASS 0 leaves	11	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+10	7	1,2,4,8,80,160,256	12	12	flatten_matrix_proof	12	264	12	336	12	12	12	flat	12	flat:12	flatrank=12 wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+11	7	1,2,8,16,64,132,256	12	12	forced_product_proof	12	420	12	420	12	12	12	flat	12	flat:12	flatrank=12 wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=11 PASS COMPLETE leaves 4: UNSAT 4 ABORT_left 0 SAT 0	-	-
+12	7	1,2,8,16,68,160,256	16	16	forced_product_proof	12	264	16	336	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=15 PASS COMPLETE leaves 7: UNSAT 2 ABORT_left 5 SAT 0 (limits 60)	-	-
+13	7	1,2,8,20,32,68,128	16	16	forced_product_proof	12	492	16	336	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	no run: 13 L=15 label cap > 8: no enumerator variant	-	-
+14	7	1,2,8,20,32,128,256	12	12	flatten_matrix_proof	12	1216	12	1008	12	12	12	flat	12	flat:12	flatrank=12 wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+15	7	1,2,8,20,64,160,256	12	12	forced_product_proof	12	264	12	336	12	12	12	flat	12	flat:12	flatrank=12 wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=11 PASS COMPLETE leaves 0	-	-
+16	7	1,2,8,20,68,160,256	16	16	forced_product_proof	12	936	16	840	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=15 PASS COMPLETE leaves 0	-	-
+17	7	1,2,8,20,96,128,256	16	16	forced_product_proof	12	3456	16	3696	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=15 PASS COMPLETE leaves 6: UNSAT 3 ABORT_left 3 SAT 0 (limits 60)	-	-
+18	7	1,2,8,32,84,128,256	12	12	flatten_matrix_proof	12	1056	12	1344	12	12	12	flat	12	flat:12	flatrank=12 wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+19	7	1,2,12,32,80,148,256	16	16	backtracking_proof	12	1248	16	1120	16	16	16	routeB	16	routeB:16	L=15 m8 PASS 0 leaves	15	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+20	7	1,10,20,32,68,128,262	18	18	backtracking_proof	12	384	18	288	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+21	6	1,2,4,8,16,32	12	12	flatten_matrix_proof	12	1	12	-	-	12	12	flat	12	flat:12	flatrank=12 wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+22	6	1,2,4,8,16,64	12	12	degenerate_proof	8	57	12	21	12	12	12	deg	12	deg:12	e=160 q=273 s=473 -> j=6 cert_j=12	-	-	-	-	-	-	160	273	473	6	12	12	12	yes	yes	-	-	-
+23	6	1,2,4,8,16,96	16	16	forced_product_proof	12	51	16	42	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=15 PASS COMPLETE sampled 152 of leaves 303: UNSAT 44 ABORT_left 108 SAT 0 (limits 60)	-	-
+24	6	1,2,4,8,16,256	12	12	flatten_matrix_proof	12	144	12	84	12	12	12	flat	12	flat:12	flatrank=12 wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+25	6	1,2,4,8,64,160	12	12	degenerate_proof	8	34	12	28	12	12	12	deg	12	deg:12	e=16 q=273 s=473 -> j=6 cert_j=12	-	-	-	-	-	-	16	273	473	6	12	12	12	yes	yes	-	-	-
+26	6	1,2,4,8,80,128	16	16	forced_product_proof	12	34	16	28	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=15 PASS COMPLETE leaves 121: UNSAT 57 ABORT_left 64 SAT 0 (limits 60)	-	-
+27	6	1,2,4,8,80,160	15	14	backtracking_proof	12	90	15	126	15	15	15	lift	15	lift:15	L=14 vr PASS leaves 1: UNSAT 1 ABORT_left 0 SAT 0	-	-	14	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+28	6	1,2,4,8,80,256	16	16	forced_product_proof	12	384	16	420	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=15 PASS COMPLETE leaves 258: UNSAT 201 ABORT_left 57 SAT 0 (limits 60)	-	-
+29	6	1,2,4,8,128,288	12	12	flatten_matrix_proof	12	136	12	112	12	12	12	flat	12	flat:12	flatrank=12 wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+30	6	1,2,4,8,160,304	15	14	backtracking_proof	12	120	15	168	15	15	15	lift	15	lift:15	L=14 vr PASS leaves 1: UNSAT 1 ABORT_left 0 SAT 0	-	-	14	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+31	6	1,2,4,80,160,280	16	14	backtracking_proof	12	32	16	56	16	16	16	lift	16	lift:16	L=15 vr PASS leaves 3: UNSAT 3 ABORT_left 0 SAT 0	-	-	15	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+32	6	1,2,8,16,64,128	12	12	forced_product_proof	12	1	12	-	-	12	12	flat	12	flat:12	flatrank=12 wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=11 PASS COMPLETE leaves 22: UNSAT 17 ABORT_left 5 SAT 0 (limits 60)	-	-
+33	6	1,2,8,16,64,132	16	16	forced_product_proof	12	51	16	42	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=15 PASS COMPLETE sampled 152 of leaves 303: UNSAT 40 ABORT_left 112 SAT 0 (limits 60)	-	-
+34	6	1,2,8,16,64,256	12	12	degenerate_proof	12	144	12	84	12	12	12	deg	12	deg:12	e=132 q=273 s=345 -> j=11 cert_j=12	-	-	-	-	-	-	132	273	345	11	12	12	12	yes	yes	-	-	-
+35	6	1,2,8,16,68,160	20	20	forced_product_proof	12	30	20	42	20	20	20	methodK	20	methodK:20	forced product (Lean method K), wang=20	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=19 PASS COMPLETE sampled 137 of leaves 411: UNSAT 5 ABORT_left 132 SAT 0 (limits 60)	-	-
+36	6	1,2,8,16,68,256	16	16	degenerate_proof	12	384	16	420	16	16	16	deg	16	deg:16	e=160 q=273 s=273 -> j=12 cert_j=16	-	-	-	-	-	-	160	273	273	12	16	16	16	yes	yes	-	-	-
+37	6	1,2,8,20,32,64	16	16	forced_product_proof	12	34	16	28	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=15 PASS COMPLETE leaves 121: UNSAT 51 ABORT_left 70 SAT 0 (limits 60)	-	-
+38	6	1,2,8,20,32,68	20	20	forced_product_proof	12	46	20	14	20	20	20	methodK	20	methodK:20	forced product (Lean method K), wang=20	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	no run: 38 L=19 label cap > 8: no enumerator variant	-	-
+39	6	1,2,8,20,32,128	16	16	degenerate_proof	12	480	16	252	16	16	16	deg	16	deg:16	e=68 q=273 s=337 -> j=13 cert_j=16	-	-	-	-	-	-	68	273	337	13	16	16	16	yes	yes	-	-	-
+40	6	1,2,8,20,64,160	15	14	backtracking_proof	12	90	15	126	15	15	15	lift	15	lift:15	L=14 vr PASS leaves 1: UNSAT 1 ABORT_left 0 SAT 0	-	-	14	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+41	6	1,2,8,20,64,256	16	16	forced_product_proof	12	384	16	420	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=15 PASS COMPLETE leaves 258: UNSAT 188 ABORT_left 70 SAT 0 (limits 60)	-	-
+42	6	1,2,8,20,68,128	20	20	forced_product_proof	12	46	20	14	20	20	20	methodK	20	methodK:20	forced product (Lean method K), wang=20	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	no run: 42 L=19 label cap > 8: no enumerator variant	-	-
+43	6	1,2,8,20,68,160	18	18	backtracking_proof	12	126	18	84	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+44	6	1,2,8,20,68,256	18	18	backtracking_proof	12	528	18	252	18	18	18	lcc	18	lcc:18	row 44 coset-count certificate, wang=18	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	ROUTEB_FAILED
+45	6	1,2,8,20,96,128	20	20	forced_product_proof	12	432	20	420	20	20	20	methodK	20	methodK:20	forced product (Lean method K), wang=20	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=19 PASS COMPLETE sampled 154 of leaves 614: UNSAT 10 ABORT_left 144 SAT 0 (limits 60)	-	-
+46	6	1,2,8,20,96,256	18	18	backtracking_proof	12	864	18	840	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+47	6	1,2,8,20,128,256	16	16	degenerate_proof	12	912	16	672	16	16	16	deg	16	deg:16	e=68 q=161 s=394 -> j=13 cert_j=16	-	-	-	-	-	-	68	161	394	13	16	16	16	yes	yes	-	-	-
+48	6	1,2,8,20,128,288	16	16	degenerate_proof	12	912	16	672	16	16	16	deg	16	deg:16	e=68 q=401 s=467 -> j=13 cert_j=16	-	-	-	-	-	-	68	401	467	13	16	16	16	yes	yes	-	-	-
+49	6	1,2,8,20,160,256	16	16	degenerate_proof	12	1728	16	1680	16	16	16	deg	16	deg:16	e=68 q=273 s=273 -> j=16 cert_j=16	-	-	-	-	-	-	68	273	273	16	16	16	16	yes	yes	-	-	-
+50	6	1,2,8,32,64,384	12	12	degenerate_proof	12	136	12	112	12	12	12	deg	12	deg:12	e=20 q=225 s=377 -> j=11 cert_j=12	-	-	-	-	-	-	20	225	377	11	12	12	12	yes	yes	-	-	-
+51	6	1,2,8,32,68,256	16	16	degenerate_proof	12	480	16	252	16	16	16	deg	16	deg:16	e=20 q=266 s=225 -> j=13 cert_j=16	-	-	-	-	-	-	20	266	225	13	16	16	16	yes	yes	-	-	-
+52	6	1,2,8,32,68,272	20	20	forced_product_proof	12	432	20	420	20	20	20	methodK	20	methodK:20	forced product (Lean method K), wang=20	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=19 PASS COMPLETE sampled 154 of leaves 614: UNSAT 10 ABORT_left 144 SAT 0 (limits 60)	-	-
+53	6	1,2,8,32,68,384	16	16	degenerate_proof	12	912	16	672	16	16	16	deg	16	deg:16	e=20 q=281 s=369 -> j=13 cert_j=16	-	-	-	-	-	-	20	281	369	13	16	16	16	yes	yes	-	-	-
+54	6	1,2,8,32,84,128	16	16	forced_product_proof	12	720	16	1008	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=15 PASS COMPLETE leaves 28: UNSAT 28 ABORT_left 0 SAT 0	-	-
+55	6	1,2,8,32,84,384	16	16	forced_product_proof	12	360	16	504	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=15 PASS COMPLETE leaves 20: UNSAT 20 ABORT_left 0 SAT 0	-	-
+56	6	1,2,8,32,128,256	12	12	flatten_matrix_proof	12	592	12	392	12	12	12	flat	12	flat:12	flatrank=12 wang=12	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+57	6	1,2,8,32,128,272	16	16	degenerate_proof	12	3360	16	3024	16	16	16	deg	16	deg:16	e=68 q=161 s=266 -> j=17 cert_j=16	-	-	-	-	-	-	68	161	266	17	16	16	16	yes	yes	-	-	-
+58	6	1,2,8,32,132,272	16	16	degenerate_proof	12	1584	16	1848	16	16	16	deg	16	deg:16	e=68 q=161 s=267 -> j=17 cert_j=16	-	-	-	-	-	-	68	161	267	17	16	16	16	yes	yes	-	-	-
+59	6	1,2,8,64,160,304	15	14	backtracking_proof	12	120	15	168	15	15	15	lift	15	lift:15	L=14 vr PASS leaves 1: UNSAT 1 ABORT_left 0 SAT 0	-	-	14	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+60	6	1,2,8,68,160,256	18	18	backtracking_proof	12	864	18	840	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+61	6	1,2,8,68,160,288	16	16	degenerate_proof	12	456	16	336	16	16	16	deg	16	deg:16	e=16 q=273 s=401 -> j=12 cert_j=16	-	-	-	-	-	-	16	273	401	12	16	16	16	yes	yes	-	-	-
+62	6	1,2,8,68,160,304	18	18	backtracking_proof	12	408	18	504	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+63	6	1,2,8,80,132,256	18	18	backtracking_proof	12	864	18	840	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+64	6	1,2,8,80,160,256	16	16	degenerate_proof	12	1728	16	1680	16	16	16	deg	16	deg:16	e=20 q=273 s=273 -> j=16 cert_j=16	-	-	-	-	-	-	20	273	273	16	16	16	16	yes	yes	-	-	-
+65	6	1,2,8,84,128,288	16	16	forced_product_proof	12	360	16	504	16	16	16	methodK	16	methodK:16	forced product (Lean method K), wang=16	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=15 PASS COMPLETE leaves 20: UNSAT 20 ABORT_left 0 SAT 0	-	-
+66	6	1,2,8,84,160,256	16	16	degenerate_proof	12	1344	16	2352	16	16	16	deg	16	deg:16	e=16 q=273 s=273 -> j=12 cert_j=16	-	-	-	-	-	-	16	273	273	12	16	16	16	yes	yes	-	-	-
+67	6	1,2,8,96,128,272	16	16	degenerate_proof	12	1584	16	1848	16	16	16	deg	16	deg:16	e=20 q=277 s=273 -> j=17 cert_j=16	-	-	-	-	-	-	20	277	273	17	16	16	16	yes	yes	-	-	-
+68	6	1,2,8,96,132,256	16	16	degenerate_proof	12	3168	16	3696	16	16	16	deg	16	deg:16	e=16 q=273 s=266 -> j=12 cert_j=16	-	-	-	-	-	-	16	273	266	12	16	16	16	yes	yes	-	-	-
+69	6	1,2,8,96,132,272	18	18	backtracking_proof	12	2976	18	4368	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+70	6	1,2,12,32,80,148	18	18	backtracking_proof	12	504	18	336	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+71	6	1,2,12,32,80,256	16	16	degenerate_proof	12	1728	16	1680	16	16	16	deg	16	deg:16	e=128 q=84 s=84 -> j=17 cert_j=16	-	-	-	-	-	-	128	84	84	17	16	16	16	yes	yes	-	-	-
+72	6	1,2,12,32,80,384	16	16	degenerate_proof	12	1728	16	1680	16	16	16	deg	16	deg:16	e=128 q=84 s=84 -> j=17 cert_j=16	-	-	-	-	-	-	128	84	84	17	16	16	16	yes	yes	-	-	-
+73	6	1,2,12,32,132,256	16	16	degenerate_proof	12	1968	16	1176	16	16	16	deg	16	deg:16	e=16 q=266 s=226 -> j=13 cert_j=16	-	-	-	-	-	-	16	266	226	13	16	16	16	yes	yes	-	-	-
+74	6	1,2,12,32,132,272	18	18	backtracking_proof	12	3744	18	3024	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+75	6	1,2,12,80,160,256	18	18	backtracking_proof	12	3264	18	4032	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+76	6	1,2,12,96,132,272	18	18	backtracking_proof	12	1776	18	1848	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+77	6	1,2,32,80,152,256	16	16	degenerate_proof	12	208	16	168	16	16	16	deg	16	deg:16	e=12 q=273 s=273 -> j=19 cert_j=16	-	-	-	-	-	-	12	273	273	19	16	16	16	yes	yes	-	-	-
+78	6	1,2,32,80,152,264	16	16	degenerate_proof	12	624	16	504	16	16	16	deg	16	deg:16	e=12 q=165 s=275 -> j=19 cert_j=16	-	-	-	-	-	-	12	165	275	19	16	16	16	yes	yes	-	-	-
+79	6	1,2,32,80,156,256	16	16	degenerate_proof	12	496	16	728	16	16	16	deg	16	deg:16	e=8 q=98 s=204 -> j=17 cert_j=16	-	-	-	-	-	-	8	98	204	17	16	16	16	yes	yes	-	-	-
+80	6	1,2,32,80,156,264	16	16	degenerate_proof	12	496	16	728	16	16	16	deg	16	deg:16	e=8 q=98 s=204 -> j=17 cert_j=16	-	-	-	-	-	-	8	98	204	17	16	16	16	yes	yes	-	-	-
+81	6	1,2,32,80,156,272	17	16	degenerate_proof	12	992	17	1456	17	17	17	lift	17	deg:16,lift:17	L=16 m4 PASS leaves 1: UNSAT 1 ABORT_left 0 SAT 0	-	-	16	-	-	-	8	98	205	17	16	16	16	NO	NO	-	-	DEG_SHORT
+82	6	1,8,20,38,66,128	18	18	backtracking_proof	12	504	18	336	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+83	6	1,8,20,38,128,258	16	16	degenerate_proof	12	624	16	504	16	16	16	deg	16	deg:16	e=66 q=84 s=111 -> j=19 cert_j=16	-	-	-	-	-	-	66	84	111	19	16	16	16	yes	yes	-	-	-
+84	6	1,8,20,64,160,262	16	14	backtracking_proof	12	32	16	56	16	16	16	lift	16	lift:16	L=15 vr PASS leaves 3: UNSAT 3 ABORT_left 0 SAT 0	-	-	15	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+85	6	1,8,20,66,128,288	16	16	degenerate_proof	12	1728	16	1680	16	16	16	deg	16	deg:16	e=32 q=266 s=161 -> j=17 cert_j=16	-	-	-	-	-	-	32	266	161	17	16	16	16	yes	yes	-	-	-
+86	6	1,8,20,66,160,256	18	18	backtracking_proof	12	3264	18	4032	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+87	6	1,8,20,68,128,258	18	18	backtracking_proof	12	3744	18	3024	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+88	6	1,8,20,68,160,258	18	18	backtracking_proof	12	1776	18	1848	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+89	6	1,8,20,102,128,258	16	16	degenerate_proof	12	496	16	728	16	16	16	deg	16	deg:16	e=2 q=273 s=401 -> j=17 cert_j=16	-	-	-	-	-	-	2	273	401	17	16	16	16	yes	yes	-	-	-
+90	6	1,8,20,102,128,260	17	16	degenerate_proof	12	992	17	1456	17	17	17	lift	17	deg:16,lift:17	L=16 m4 PASS leaves 1: UNSAT 1 ABORT_left 0 SAT 0	-	-	16	-	-	-	2	277	401	17	16	16	16	NO	NO	-	-	DEG_SHORT
+91	6	1,10,16,68,160,256	19	19	backtracking_proof	12	16	19	28	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+92	6	1,10,16,68,160,258	20	20	backtracking_proof	12	160	20	140	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+93	6	1,10,16,68,160,260	19	19	backtracking_proof	12	816	19	1008	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+94	6	1,10,16,68,164,260	16	16	degenerate_proof	12	112	16	196	16	16	16	deg	16	deg:16	e=2 q=273 s=345 -> j=12 cert_j=16	-	-	-	-	-	-	2	273	345	12	16	16	16	yes	yes	-	-	-
+95	6	1,10,16,68,164,262	20	20	backtracking_proof	12	480	20	420	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+96	6	1,10,16,68,164,288	18	18	backtracking_proof	12	1632	18	2016	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+97	6	1,10,16,96,164,256	20	20	backtracking_proof	12	1184	20	1232	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+98	6	1,10,16,96,164,258	18	18	backtracking_proof	12	992	18	1456	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+99	6	1,10,20,32,68,128	19	19	backtracking_proof	12	4032	19	2688	19	19	19	routeB	19	routeB:19	L=18 m8 PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+100	6	1,10,20,32,68,258	19	19	backtracking_proof	12	2160	19	1176	19	19	19	routeB	19	routeB:19	L=18 m8 PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+101	6	1,10,20,32,192,322	16	16	degenerate_proof	12	624	16	504	16	16	16	deg	16	deg:16	e=64 q=140 s=273 -> j=16 cert_j=16	-	-	-	-	-	-	64	140	273	16	16	16	16	yes	yes	-	-	-
+102	6	1,10,20,32,192,324	18	18	degenerate_proof	12	1248	18	1008	18	18	18	deg	18	deg:18	e=70 q=84 s=267 -> j=20 cert_j=18	-	-	-	-	-	-	70	84	267	20	18	18	18	yes	yes	-	-	-
+103	6	1,10,20,68,160,262	20	20	backtracking_proof	12	368	20	224	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+104	6	1,10,20,68,160,288	20	20	backtracking_proof	12	3840	20	3360	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+105	6	1,10,20,96,128,260	20	20	backtracking_proof	12	1280	20	1120	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+106	6	1,10,20,96,128,262	18	18	backtracking_proof	12	3264	18	4032	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+107	6	1,10,20,96,160,258	18	18	backtracking_proof	12	1776	18	1848	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+108	6	1,10,20,96,160,260	19	19	backtracking_proof	12	1184	19	1232	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+109	6	1,10,20,96,160,290	20	20	backtracking_proof	12	2064	20	1512	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+110	6	1,10,20,96,160,292	18	18	backtracking_proof	12	3552	18	3696	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+111	6	1,10,32,68,144,274	18	18	backtracking_proof	12	1184	18	1232	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+112	6	1,10,32,68,144,278	19	19	backtracking_proof	12	1184	19	1232	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+113	6	1,10,32,80,132,272	20	20	backtracking_proof	12	1280	20	1120	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+114	6	1,10,32,84,128,258	18	18	backtracking_proof	12	1280	18	1120	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+115	6	10,20,35,68,131,262	21	21	backtracking_proof	12	32	21	16	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+116	5	1,2,4,8,16	16	16	degenerate_proof	12	9	16	-	-	16	16	deg	16	deg:16	e=96 q=273 s=473 -> j=23 cert_j=16	-	-	-	-	-	-	96	273	473	23	16	16	16	yes	yes	-	-	-
+117	5	1,2,4,8,64	14	14	backtracking_proof	8	3	14	-	-	14	14	routeB	14	routeB:14	L=13 vr PASS 0 leaves	13	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+118	5	1,2,4,8,80	17	17	backtracking_proof	12	21	17	21	17	17	17	routeB	17	routeB:17	L=16 m4 PASS 0 leaves	16	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+119	5	1,2,4,8,128	16	16	degenerate_proof	12	48	16	21	16	16	16	deg	16	deg:16	e=80 q=273 s=465 -> j=26 cert_j=16	-	-	-	-	-	-	80	273	465	26	16	16	16	yes	yes	-	-	-
+120	5	1,2,4,8,160	16	16	degenerate_proof	12	84	16	84	16	16	16	deg	16	deg:16	e=16 q=273 s=474 -> j=23 cert_j=16	-	-	-	-	-	-	16	273	474	23	16	16	16	yes	yes	-	-	-
+121	5	1,2,4,80,152	17	16	degenerate_proof	12	4	17	7	17	17	17	lift	17	deg:16,lift:17	L=16 vr PASS leaves 0	-	-	16	-	-	-	8	273	473	26	16	16	16	NO	NO	-	-	DEG_SHORT
+122	5	1,2,4,80,160	17	17	backtracking_proof	12	48	17	84	17	17	17	routeB	17	routeB:17	L=16 m4 PASS 0 leaves	16	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+123	5	1,2,8,16,64	16	16	degenerate_proof	12	9	16	-	-	16	16	deg	16	deg:16	e=132 q=273 s=473 -> j=33 cert_j=16	-	-	-	-	-	-	132	273	473	33	16	16	16	yes	yes	-	-	-
+124	5	1,2,8,16,68	20	20	degenerate_proof	12	21	20	21	20	20	20	deg	20	deg:20	e=160 q=273 s=465 -> j=35 cert_j=20	-	-	-	-	-	-	160	273	465	35	20	20	20	yes	yes	-	-	-
+125	5	1,2,8,16,256	16	16	degenerate_proof	12	40	16	28	16	16	16	deg	16	deg:16	e=68 q=273 s=281 -> j=36 cert_j=16	-	-	-	-	-	-	68	273	281	36	16	16	16	yes	yes	-	-	-
+126	5	1,2,8,20,32	20	20	degenerate_proof	12	22	20	-	-	20	20	deg	20	deg:20	e=68 q=273 s=345 -> j=38 cert_j=20	-	-	-	-	-	-	68	273	345	38	20	20	20	yes	yes	-	-	-
+127	5	1,2,8,20,64	17	17	backtracking_proof	12	21	17	21	17	17	17	routeB	17	routeB:17	L=16 m4 PASS 0 leaves	16	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+128	5	1,2,8,20,68	20	20	degenerate_proof	12	39	20	-	-	20	20	deg	20	deg:20	e=32 q=273 s=345 -> j=38 cert_j=20	-	-	-	-	-	-	32	273	345	38	20	20	20	yes	yes	-	-	-
+129	5	1,2,8,20,96	20	20	degenerate_proof	12	54	20	42	20	20	20	deg	20	deg:20	e=36 q=273 s=473 -> j=38 cert_j=20	-	-	-	-	-	-	36	273	473	38	20	20	20	yes	yes	-	-	-
+130	5	1,2,8,20,128	20	20	degenerate_proof	12	120	20	42	20	20	20	deg	20	deg:20	e=68 q=273 s=465 -> j=42 cert_j=20	-	-	-	-	-	-	68	273	465	42	20	20	20	yes	yes	-	-	-
+131	5	1,2,8,20,160	20	20	degenerate_proof	12	108	20	84	20	20	20	deg	20	deg:20	e=96 q=273 s=345 -> j=45 cert_j=20	-	-	-	-	-	-	96	273	345	45	20	20	20	yes	yes	-	-	-
+132	5	1,2,8,20,256	18	18	degenerate_proof	12	456	18	252	18	18	18	deg	18	deg:18	e=68 q=273 s=281 -> j=44 cert_j=18	-	-	-	-	-	-	68	273	281	44	18	18	18	yes	yes	-	-	-
+133	5	1,2,8,32,64	16	16	degenerate_proof	12	48	16	21	16	16	16	deg	16	deg:16	e=20 q=273 s=345 -> j=37 cert_j=16	-	-	-	-	-	-	20	273	345	37	16	16	16	yes	yes	-	-	-
+134	5	1,2,8,32,68	20	20	degenerate_proof	12	120	20	42	20	20	20	deg	20	deg:20	e=20 q=273 s=345 -> j=38 cert_j=20	-	-	-	-	-	-	20	273	345	38	20	20	20	yes	yes	-	-	-
+135	5	1,2,8,32,84	20	20	forced_product_proof	12	36	20	63	20	20	20	methodK	20	methodK:20	forced product (Lean method K), wang=20	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=19 PASS COMPLETE sampled 200 of leaves 282673: UNSAT 187 ABORT_left 13 SAT 0 (limits 60)	-	-
+136	5	1,2,8,32,128	16	16	degenerate_proof	12	432	16	168	16	16	16	deg	16	deg:16	e=20 q=273 s=337 -> j=39 cert_j=16	-	-	-	-	-	-	20	273	337	39	16	16	16	yes	yes	-	-	-
+137	5	1,2,8,32,132	20	20	degenerate_proof	12	384	20	336	20	20	20	deg	20	deg:20	e=80 q=266 s=169 -> j=52 cert_j=20	-	-	-	-	-	-	80	266	169	52	20	20	20	yes	yes	-	-	-
+138	5	1,2,8,32,384	16	16	degenerate_proof	12	408	16	252	16	16	16	deg	16	deg:16	e=20 q=281 s=369 -> j=39 cert_j=16	-	-	-	-	-	-	20	281	369	39	16	16	16	yes	yes	-	-	-
+139	5	1,2,8,64,160	16	16	degenerate_proof	12	84	16	84	16	16	16	deg	16	deg:16	e=16 q=266 s=473 -> j=33 cert_j=16	-	-	-	-	-	-	16	266	473	33	16	16	16	yes	yes	-	-	-
+140	5	1,2,8,68,160	20	20	degenerate_proof	12	108	20	84	20	20	20	deg	20	deg:20	e=16 q=273 s=465 -> j=35 cert_j=20	-	-	-	-	-	-	16	273	465	35	20	20	20	yes	yes	-	-	-
+141	5	1,2,8,68,256	18	18	degenerate_proof	12	240	18	84	18	18	18	deg	18	deg:18	e=20 q=273 s=281 -> j=44 cert_j=18	-	-	-	-	-	-	20	273	281	44	18	18	18	yes	yes	-	-	-
+142	5	1,2,8,68,272	20	20	degenerate_proof	12	216	20	168	20	20	20	deg	20	deg:20	e=32 q=273 s=281 -> j=52 cert_j=20	-	-	-	-	-	-	32	273	281	52	20	20	20	yes	yes	-	-	-
+143	5	1,2,8,80,128	20	20	degenerate_proof	12	22	20	-	-	20	20	deg	20	deg:20	e=20 q=273 s=465 -> j=42 cert_j=20	-	-	-	-	-	-	20	273	465	42	20	20	20	yes	yes	-	-	-
+144	5	1,2,8,80,132	20	20	degenerate_proof	12	54	20	42	20	20	20	deg	20	deg:20	e=20 q=273 s=473 -> j=42 cert_j=20	-	-	-	-	-	-	20	273	473	42	20	20	20	yes	yes	-	-	-
+145	5	1,2,8,80,160	20	20	degenerate_proof	12	108	20	84	20	20	20	deg	20	deg:20	e=36 q=282 s=169 -> j=52 cert_j=20	-	-	-	-	-	-	36	282	169	52	20	20	20	yes	yes	-	-	-
+146	5	1,2,8,80,256	18	18	degenerate_proof	12	456	18	252	18	18	18	deg	18	deg:18	e=20 q=273 s=281 -> j=44 cert_j=18	-	-	-	-	-	-	20	273	281	44	18	18	18	yes	yes	-	-	-
+147	5	1,2,8,84,128	20	20	forced_product_proof	12	36	20	63	20	20	20	methodK	20	methodK:20	forced product (Lean method K), wang=20	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	L=19 PASS COMPLETE sampled 200 of leaves 282673: UNSAT 189 ABORT_left 11 SAT 0 (limits 60)	-	-
+148	5	1,2,8,84,160	20	20	degenerate_proof	12	60	20	168	20	20	20	deg	20	deg:20	e=16 q=273 s=465 -> j=35 cert_j=20	-	-	-	-	-	-	16	273	465	35	20	20	20	yes	yes	-	-	-
+149	5	1,2,8,84,256	18	18	backtracking_proof	12	264	18	588	18	18	18	routeB	18	routeB:18	L=17 vr PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+150	5	1,2,8,96,128	20	20	degenerate_proof	12	384	20	336	20	20	20	deg	20	deg:20	e=20 q=273 s=337 -> j=45 cert_j=20	-	-	-	-	-	-	20	273	337	45	20	20	20	yes	yes	-	-	-
+151	5	1,2,8,96,132	20	20	degenerate_proof	12	336	20	504	20	20	20	deg	20	deg:20	e=16 q=273 s=458 -> j=35 cert_j=20	-	-	-	-	-	-	16	273	458	35	20	20	20	yes	yes	-	-	-
+152	5	1,2,8,96,256	18	18	degenerate_proof	12	384	18	336	18	18	18	deg	18	deg:18	e=20 q=273 s=281 -> j=46 cert_j=18	-	-	-	-	-	-	20	273	281	46	18	18	18	yes	yes	-	-	-
+153	5	1,2,8,96,272	20	20	degenerate_proof	12	336	20	504	20	20	20	deg	20	deg:20	e=36 q=275 s=281 -> j=52 cert_j=20	-	-	-	-	-	-	36	275	281	52	20	20	20	yes	yes	-	-	-
+154	5	1,2,8,96,384	18	18	degenerate_proof	12	720	18	840	18	18	18	deg	18	deg:18	e=20 q=275 s=409 -> j=46 cert_j=18	-	-	-	-	-	-	20	275	409	46	18	18	18	yes	yes	-	-	-
+155	5	1,2,8,128,288	16	16	degenerate_proof	12	408	16	252	16	16	16	deg	16	deg:16	e=20 q=273 s=273 -> j=48 cert_j=16	-	-	-	-	-	-	20	273	273	48	16	16	16	yes	yes	-	-	-
+156	5	1,2,8,132,256	18	18	degenerate_proof	12	384	18	336	18	18	18	deg	18	deg:18	e=80 q=273 s=273 -> j=63 cert_j=18	-	-	-	-	-	-	80	273	273	63	18	18	18	yes	yes	-	-	-
+157	5	1,2,8,132,272	20	20	degenerate_proof	12	336	20	504	20	20	20	deg	20	deg:20	e=68 q=161 s=459 -> j=45 cert_j=20	-	-	-	-	-	-	68	161	459	45	20	20	20	yes	yes	-	-	-
+158	5	1,2,8,132,288	18	18	degenerate_proof	12	720	18	840	18	18	18	deg	18	deg:18	e=80 q=305 s=281 -> j=63 cert_j=18	-	-	-	-	-	-	80	305	281	63	18	18	18	yes	yes	-	-	-
+159	5	1,2,8,160,256	18	18	degenerate_proof	12	1440	18	1680	18	18	18	deg	18	deg:18	e=68 q=273 s=273 -> j=60 cert_j=18	-	-	-	-	-	-	68	273	273	60	18	18	18	yes	yes	-	-	-
+160	5	1,2,8,160,288	16	16	degenerate_proof	12	768	16	672	16	16	16	deg	16	deg:16	e=16 q=266 s=410 -> j=36 cert_j=16	-	-	-	-	-	-	16	266	410	36	16	16	16	yes	yes	-	-	-
+161	5	1,2,8,160,304	18	18	degenerate_proof	12	672	18	1008	18	18	18	deg	18	deg:18	e=68 q=273 s=273 -> j=62 cert_j=18	-	-	-	-	-	-	68	273	273	62	18	18	18	yes	yes	-	-	-
+162	5	1,2,12,32,80	19	19	backtracking_proof	12	216	19	168	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+163	5	1,2,12,32,132	20	20	degenerate_proof	12	528	20	168	20	20	20	deg	20	deg:20	e=16 q=273 s=410 -> j=38 cert_j=20	-	-	-	-	-	-	16	273	410	38	20	20	20	yes	yes	-	-	-
+164	5	1,2,12,32,256	18	18	backtracking_proof	12	480	18	168	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+165	5	1,2,12,32,272	19	19	backtracking_proof	12	432	19	336	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+166	5	1,2,12,32,384	18	18	degenerate_proof	12	912	18	504	18	18	18	deg	18	deg:18	e=148 q=309 s=273 -> j=74 cert_j=18	-	-	-	-	-	-	148	309	273	74	18	18	18	yes	yes	-	-	-
+167	5	1,2,12,80,148	20	20	degenerate_proof	12	24	20	7	20	20	20	deg	20	deg:20	e=16 q=273 s=458 -> j=42 cert_j=20	-	-	-	-	-	-	16	273	458	42	20	20	20	yes	yes	-	-	-
+168	5	1,2,12,80,160	20	20	degenerate_proof	12	192	20	252	20	20	20	deg	20	deg:20	e=16 q=273 s=394 -> j=45 cert_j=20	-	-	-	-	-	-	16	273	394	45	20	20	20	yes	yes	-	-	-
+169	5	1,2,12,80,256	20	20	degenerate_proof	12	816	20	840	20	20	20	deg	20	deg:20	e=128 q=140 s=114 -> j=52 cert_j=20	-	-	-	-	-	-	128	140	114	52	20	20	20	yes	yes	-	-	-
+170	5	1,2,12,96,132	20	20	degenerate_proof	12	480	20	336	20	20	20	deg	20	deg:20	e=20 q=305 s=403 -> j=45 cert_j=20	-	-	-	-	-	-	20	305	403	45	20	20	20	yes	yes	-	-	-
+171	5	1,2,12,96,256	19	19	backtracking_proof	12	432	19	336	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+172	5	1,2,12,96,272	20	19	backtracking_proof	12	384	20	504	20	20	20	lift	20	lift:20	L=19 m4 PASS leaves 0	-	-	19	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+173	5	1,2,12,96,384	20	20	backtracking_proof	12	816	20	840	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+174	5	1,2,12,132,288	20	20	degenerate_proof	12	504	20	252	20	20	20	deg	20	deg:20	e=80 q=394 s=187 -> j=52 cert_j=20	-	-	-	-	-	-	80	394	187	52	20	20	20	yes	yes	-	-	-
+175	5	1,2,12,160,256	20	20	degenerate_proof	12	1632	20	1680	20	20	20	deg	20	deg:20	e=64 q=161 s=281 -> j=52 cert_j=20	-	-	-	-	-	-	64	161	281	52	20	20	20	yes	yes	-	-	-
+176	5	1,2,12,160,288	19	19	backtracking_proof	12	864	19	672	19	19	19	routeB	19	routeB:19	L=18 m8 PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+177	5	1,2,12,160,304	20	19	backtracking_proof	12	768	20	1008	20	20	20	lift	20	lift:20	L=19 m4 PASS leaves 0	-	-	19	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+178	5	1,2,32,80,152	18	18	degenerate_proof	12	168	18	84	18	18	18	deg	18	deg:18	e=12 q=273 s=273 -> j=70 cert_j=18	-	-	-	-	-	-	12	273	273	70	18	18	18	yes	yes	-	-	-
+179	5	1,2,32,80,156	20	20	degenerate_proof	12	312	20	588	20	20	20	deg	20	deg:20	e=8 q=266 s=233 -> j=52 cert_j=20	-	-	-	-	-	-	8	266	233	52	20	20	20	yes	yes	-	-	-
+180	5	1,2,32,80,256	16	16	degenerate_proof	12	304	16	168	16	16	16	deg	16	deg:16	e=8 q=98 s=204 -> j=47 cert_j=16	-	-	-	-	-	-	8	98	204	47	16	16	16	yes	yes	-	-	-
+181	5	1,2,32,80,264	18	18	degenerate_proof	12	816	18	840	18	18	18	deg	18	deg:18	e=20 q=273 s=266 -> j=74 cert_j=18	-	-	-	-	-	-	20	273	266	74	18	18	18	yes	yes	-	-	-
+182	5	1,2,32,80,272	19	19	backtracking_proof	12	1728	19	1344	19	19	19	routeB	19	routeB:19	L=18 m8 PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+183	5	1,2,32,80,400	16	16	degenerate_proof	12	304	16	168	16	16	16	deg	16	deg:16	e=8 q=266 s=225 -> j=53 cert_j=16	-	-	-	-	-	-	8	266	225	53	16	16	16	yes	yes	-	-	-
+184	5	1,2,32,80,408	18	18	degenerate_proof	12	816	18	840	18	18	18	deg	18	deg:18	e=20 q=279 s=394 -> j=74 cert_j=18	-	-	-	-	-	-	20	279	394	74	18	18	18	yes	yes	-	-	-
+185	5	1,2,32,84,256	18	18	backtracking_proof	12	240	18	280	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+186	5	1,2,32,84,264	19	19	backtracking_proof	12	624	19	1176	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+187	5	1,2,32,84,272	19	19	backtracking_proof	12	1344	19	2016	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+188	5	1,2,32,84,400	18	18	backtracking_proof	12	240	18	280	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+189	5	1,2,32,84,408	19	19	backtracking_proof	12	624	19	1176	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+190	5	1,2,80,160,280	19	18	degenerate_proof	12	512	19	672	19	19	19	lift	19	deg:18,lift:19	L=18 vr PASS leaves 0	-	-	18	-	-	-	12	279	337	75	18	18	18	NO	NO	-	-	DEG_SHORT
+191	5	1,2,84,160,280	20	19	backtracking_proof	12	384	20	896	20	20	20	lift	20	lift:20	L=19 vr PASS leaves 0	-	-	19	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+192	5	1,8,20,38,64	17	16	degenerate_proof	12	4	17	7	17	17	17	lift	17	deg:16,lift:17	L=16 vr PASS leaves 0	-	-	16	-	-	-	2	273	473	37	16	16	16	NO	NO	-	-	DEG_SHORT
+193	5	1,8,20,38,66	20	20	degenerate_proof	12	24	20	7	20	20	20	deg	20	deg:20	e=4 q=273 s=233 -> j=38 cert_j=20	-	-	-	-	-	-	4	273	233	38	20	20	20	yes	yes	-	-	-
+194	5	1,8,20,38,128	18	18	degenerate_proof	12	168	18	84	18	18	18	deg	18	deg:18	e=66 q=273 s=337 -> j=82 cert_j=18	-	-	-	-	-	-	66	273	337	82	18	18	18	yes	yes	-	-	-
+195	5	1,8,20,64,160	17	17	backtracking_proof	12	48	17	84	17	17	17	routeB	17	routeB:17	L=16 m4 PASS 0 leaves	16	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+196	5	1,8,20,66,128	19	19	backtracking_proof	12	216	19	168	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+197	5	1,8,20,66,160	20	20	degenerate_proof	12	192	20	252	20	20	20	deg	20	deg:20	e=4 q=273 s=169 -> j=52 cert_j=20	-	-	-	-	-	-	4	273	169	52	20	20	20	yes	yes	-	-	-
+198	5	1,8,20,66,256	20	20	degenerate_proof	12	816	20	840	20	20	20	deg	20	deg:20	e=32 q=266 s=225 -> j=45 cert_j=20	-	-	-	-	-	-	32	266	225	45	20	20	20	yes	yes	-	-	-
+199	5	1,8,20,68,128	20	20	degenerate_proof	12	528	20	168	20	20	20	deg	20	deg:20	e=2 q=273 s=465 -> j=42 cert_j=20	-	-	-	-	-	-	2	273	465	42	20	20	20	yes	yes	-	-	-
+200	5	1,8,20,68,160	20	20	degenerate_proof	12	480	20	336	20	20	20	deg	20	deg:20	e=6 q=275 s=249 -> j=52 cert_j=20	-	-	-	-	-	-	6	275	249	52	20	20	20	yes	yes	-	-	-
+201	5	1,8,20,68,384	20	20	degenerate_proof	12	504	20	252	20	20	20	deg	20	deg:20	e=34 q=281 s=241 -> j=45 cert_j=20	-	-	-	-	-	-	34	281	241	45	20	20	20	yes	yes	-	-	-
+202	5	1,8,20,102,128	20	20	degenerate_proof	12	312	20	588	20	20	20	deg	20	deg:20	e=2 q=273 s=465 -> j=45 cert_j=20	-	-	-	-	-	-	2	273	465	45	20	20	20	yes	yes	-	-	-
+203	5	1,8,20,128,258	18	18	degenerate_proof	12	816	18	840	18	18	18	deg	18	deg:18	e=68 q=273 s=273 -> j=87 cert_j=18	-	-	-	-	-	-	68	273	273	87	18	18	18	yes	yes	-	-	-
+204	5	1,8,20,128,260	19	19	backtracking_proof	12	1728	19	1344	19	19	19	routeB	19	routeB:19	L=18 m8 PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+205	5	1,8,20,128,292	16	16	degenerate_proof	12	304	16	168	16	16	16	deg	16	deg:16	e=2 q=273 s=401 -> j=48 cert_j=16	-	-	-	-	-	-	2	273	401	48	16	16	16	yes	yes	-	-	-
+206	5	1,8,20,128,294	18	18	degenerate_proof	12	816	18	840	18	18	18	deg	18	deg:18	e=68 q=305 s=345 -> j=87 cert_j=18	-	-	-	-	-	-	68	305	345	87	18	18	18	yes	yes	-	-	-
+207	5	1,8,20,160,262	19	18	degenerate_proof	12	512	19	672	19	19	19	lift	19	deg:18,lift:19	L=18 vr PASS leaves 0	-	-	18	-	-	-	66	277	345	86	18	18	18	NO	NO	-	-	DEG_SHORT
+208	5	1,8,66,128,272	19	19	backtracking_proof	12	432	19	336	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+209	5	1,8,66,128,288	18	18	degenerate_proof	12	912	18	504	18	18	18	deg	18	deg:18	e=50 q=266 s=465 -> j=87 cert_j=18	-	-	-	-	-	-	50	266	465	87	18	18	18	yes	yes	-	-	-
+210	5	1,8,66,132,256	19	19	backtracking_proof	12	432	19	336	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+211	5	1,8,66,132,272	20	19	backtracking_proof	12	384	20	504	20	20	20	lift	20	lift:20	L=19 m4 PASS leaves 0	-	-	19	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+212	5	1,8,66,132,288	20	20	backtracking_proof	12	816	20	840	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+213	5	1,8,66,160,256	20	20	degenerate_proof	12	1632	20	1680	20	20	20	deg	20	deg:20	e=4 q=161 s=396 -> j=45 cert_j=20	-	-	-	-	-	-	4	161	396	45	20	20	20	yes	yes	-	-	-
+214	5	1,8,66,160,288	19	19	backtracking_proof	12	864	19	672	19	19	19	routeB	19	routeB:19	L=18 m8 PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+215	5	1,8,66,160,304	20	19	backtracking_proof	12	768	20	1008	20	20	20	lift	20	lift:20	L=19 m4 PASS leaves 0	-	-	19	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+216	5	1,8,84,128,258	19	19	backtracking_proof	12	624	19	1176	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+217	5	1,8,84,128,260	19	19	backtracking_proof	12	1344	19	2016	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+218	5	1,8,84,128,292	18	18	backtracking_proof	12	240	18	280	18	18	18	routeB	18	routeB:18	L=17 m8 PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+219	5	1,8,84,128,294	19	19	backtracking_proof	12	624	19	1176	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+220	5	1,8,84,160,262	20	19	backtracking_proof	12	384	20	896	20	20	20	lift	20	lift:20	L=19 vr PASS leaves 0	-	-	19	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+221	5	1,10,16,68,160	21	21	backtracking_proof	12	64	21	84	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+222	5	1,10,16,68,164	20	20	degenerate_proof	12	192	20	252	20	20	20	deg	20	deg:20	e=2 q=273 s=473 -> j=35 cert_j=20	-	-	-	-	-	-	2	273	473	35	20	20	20	yes	yes	-	-	-
+223	5	1,10,16,68,256	19	19	degenerate_proof	12	168	19	252	19	19	19	deg	19	deg:19	e=160 q=273 s=273 -> j=91 cert_j=19	-	-	-	-	-	-	160	273	273	91	19	19	19	yes	yes	-	-	-
+224	5	1,10,16,68,258	20	20	degenerate_proof	12	480	20	336	20	20	20	deg	20	deg:20	e=160 q=273 s=273 -> j=92 cert_j=20	-	-	-	-	-	-	160	273	273	92	20	20	20	yes	yes	-	-	-
+225	5	1,10,16,68,288	20	20	backtracking_proof	12	816	20	840	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+226	5	1,10,16,96,164	20	20	degenerate_proof	12	128	20	168	20	20	20	deg	20	deg:20	e=2 q=273 s=459 -> j=35 cert_j=20	-	-	-	-	-	-	2	273	459	35	20	20	20	yes	yes	-	-	-
+227	5	1,10,16,96,256	20	20	degenerate_proof	12	1632	20	1680	20	20	20	deg	20	deg:20	e=164 q=273 s=273 -> j=97 cert_j=20	-	-	-	-	-	-	164	273	273	97	20	20	20	yes	yes	-	-	-
+228	5	1,10,16,96,288	19	19	backtracking_proof	12	672	19	1008	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+229	5	1,10,16,96,290	20	20	degenerate_proof	12	960	20	672	20	20	20	deg	20	deg:20	e=134 q=281 s=403 -> j=95 cert_j=20	-	-	-	-	-	-	134	281	403	95	20	20	20	yes	yes	-	-	-
+230	5	1,10,20,32,68	21	21	backtracking_proof	12	576	21	168	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+231	5	1,10,20,32,128	20	20	backtracking_proof	12	336	20	168	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+232	5	1,10,20,32,192	19	19	degenerate_proof	12	1008	19	504	19	19	19	deg	19	deg:19	e=68 q=311 s=465 -> j=99 cert_j=19	-	-	-	-	-	-	68	311	465	99	19	19	19	yes	yes	-	-	-
+233	5	1,10,20,68,128	21	21	backtracking_proof	12	576	21	168	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+234	5	1,10,20,68,160	21	21	backtracking_proof	12	528	21	336	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+235	5	1,10,20,68,258	21	21	backtracking_proof	12	312	21	84	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+236	5	1,10,20,68,288	21	21	backtracking_proof	12	1104	21	504	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+237	5	1,10,20,96,128	21	21	backtracking_proof	12	912	21	840	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+238	5	1,10,20,96,160	20	20	degenerate_proof	12	912	20	840	20	20	20	deg	20	deg:20	e=2 q=273 s=345 -> j=45 cert_j=20	-	-	-	-	-	-	2	273	345	45	20	20	20	yes	yes	-	-	-
+239	5	1,10,20,96,256	20	20	degenerate_proof	12	1824	20	1680	20	20	20	deg	20	deg:20	e=130 q=84 s=140 -> j=105 cert_j=20	-	-	-	-	-	-	130	84	140	105	20	20	20	yes	yes	-	-	-
+240	5	1,10,20,96,288	19	19	backtracking_proof	12	768	19	1008	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+241	5	1,10,20,96,290	21	21	backtracking_proof	12	1056	21	672	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+242	5	1,10,20,128,258	20	20	degenerate_proof	12	1104	20	504	20	20	20	deg	20	deg:20	e=96 q=458 s=93 -> j=104 cert_j=20	-	-	-	-	-	-	96	458	93	104	20	20	20	yes	yes	-	-	-
+243	5	1,10,20,128,260	20	20	degenerate_proof	12	1920	20	1344	20	20	20	deg	20	deg:20	e=64 q=169 s=169 -> j=52 cert_j=20	-	-	-	-	-	-	64	169	169	52	20	20	20	yes	yes	-	-	-
+244	5	1,10,20,128,288	20	20	degenerate_proof	12	1920	20	1344	20	20	20	deg	20	deg:20	e=98 q=458 s=92 -> j=104 cert_j=20	-	-	-	-	-	-	98	458	92	104	20	20	20	yes	yes	-	-	-
+245	5	1,10,20,128,292	19	19	backtracking_proof	12	816	19	840	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+246	5	1,10,20,128,294	20	20	degenerate_proof	12	1104	20	504	20	20	20	deg	20	deg:20	e=96 q=215 s=122 -> j=105 cert_j=20	-	-	-	-	-	-	96	215	122	105	20	20	20	yes	yes	-	-	-
+247	5	1,10,20,160,256	21	21	backtracking_proof	12	1824	21	1680	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+248	5	1,10,20,160,258	21	21	backtracking_proof	12	1824	21	1680	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+249	5	1,10,20,160,260	20	20	degenerate_proof	12	1536	20	2016	20	20	20	deg	20	deg:20	e=70 q=279 s=401 -> j=104 cert_j=20	-	-	-	-	-	-	70	279	401	104	20	20	20	yes	yes	-	-	-
+250	5	1,10,20,160,262	21	21	backtracking_proof	12	2112	21	1344	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+251	5	1,10,32,68,128	20	20	degenerate_proof	12	960	20	672	20	20	20	deg	20	deg:20	e=274 q=417 s=177 -> j=104 cert_j=20	-	-	-	-	-	-	274	417	177	104	20	20	20	yes	yes	-	-	-
+252	5	1,10,32,68,144	20	20	degenerate_proof	12	1920	20	1344	20	20	20	deg	20	deg:20	e=272 q=86 s=86 -> j=97 cert_j=20	-	-	-	-	-	-	272	86	86	97	20	20	20	yes	yes	-	-	-
+253	5	1,10,32,68,272	21	21	backtracking_proof	12	1824	21	1680	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+254	5	1,10,32,80,128	20	20	backtracking_proof	12	336	20	168	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+255	5	1,10,32,80,132	21	21	backtracking_proof	12	912	21	840	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+256	5	1,10,32,80,144	19	19	degenerate_proof	12	1008	19	504	19	19	19	deg	19	deg:19	e=20 q=311 s=465 -> j=99 cert_j=19	-	-	-	-	-	-	20	311	465	99	19	19	19	yes	yes	-	-	-
+257	5	1,10,32,80,148	20	20	degenerate_proof	12	912	20	840	20	20	20	deg	20	deg:20	e=2 q=266 s=233 -> j=52 cert_j=20	-	-	-	-	-	-	2	266	233	52	20	20	20	yes	yes	-	-	-
+258	5	1,10,32,80,272	20	20	degenerate_proof	12	1920	20	1344	20	20	20	deg	20	deg:20	e=4 q=273 s=428 -> j=45 cert_j=20	-	-	-	-	-	-	4	273	428	45	20	20	20	yes	yes	-	-	-
+259	5	1,10,32,80,384	20	20	degenerate_proof	12	1920	20	1344	20	20	20	deg	20	deg:20	e=134 q=212 s=302 -> j=104 cert_j=20	-	-	-	-	-	-	134	212	302	104	20	20	20	yes	yes	-	-	-
+260	5	1,10,32,80,400	19	19	backtracking_proof	12	816	19	840	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+261	5	1,10,32,80,402	20	20	degenerate_proof	12	1104	20	504	20	20	20	deg	20	deg:20	e=132 q=309 s=281 -> j=113 cert_j=20	-	-	-	-	-	-	132	309	281	113	20	20	20	yes	yes	-	-	-
+262	5	1,10,32,84,128	19	19	backtracking_proof	12	1536	19	2016	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+263	5	1,10,32,84,144	20	20	backtracking_proof	12	1536	20	2016	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+264	5	1,10,32,84,258	20	20	backtracking_proof	12	912	20	840	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+265	5	1,10,32,84,272	20	20	degenerate_proof	12	1536	20	2016	20	20	20	deg	20	deg:20	e=4 q=273 s=428 -> j=45 cert_j=20	-	-	-	-	-	-	4	273	428	45	20	20	20	yes	yes	-	-	-
+266	5	1,10,32,84,384	19	19	backtracking_proof	12	624	19	1176	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+267	5	1,10,32,84,386	20	20	backtracking_proof	12	912	20	840	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+268	5	1,10,32,84,400	20	20	backtracking_proof	12	1536	20	2016	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+269	5	1,10,32,128,258	20	20	backtracking_proof	12	768	20	224	20	20	20	routeB	20	routeB:20	L=19 m8 PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+270	5	1,10,32,128,262	20	20	backtracking_proof	12	2016	20	1008	20	20	20	routeB	20	routeB:20	L=19 m8 PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+271	5	1,10,32,128,274	20	20	degenerate_proof	12	1920	20	1344	20	20	20	deg	20	deg:20	e=68 q=417 s=177 -> j=104 cert_j=20	-	-	-	-	-	-	68	417	177	104	20	20	20	yes	yes	-	-	-
+272	5	1,10,32,128,278	19	19	degenerate_proof	12	1632	19	1680	19	19	19	deg	19	deg:19	e=20 q=266 s=84 -> j=99 cert_j=19	-	-	-	-	-	-	20	266	84	99	19	19	19	yes	yes	-	-	-
+273	5	1,10,32,128,324	20	20	backtracking_proof	12	1008	20	504	20	20	20	routeB	20	routeB:20	L=19 m8 PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+274	5	1,10,32,128,326	19	19	degenerate_proof	12	1728	19	1344	19	19	19	deg	19	deg:19	e=68 q=161 s=161 -> j=99 cert_j=19	-	-	-	-	-	-	68	161	161	99	19	19	19	yes	yes	-	-	-
+275	5	1,10,32,128,338	19	19	degenerate_proof	12	1632	19	1680	19	19	19	deg	19	deg:19	e=70 q=206 s=298 -> j=108 cert_j=19	-	-	-	-	-	-	70	206	298	108	19	19	19	yes	yes	-	-	-
+276	5	1,10,32,128,340	19	19	degenerate_proof	12	816	19	840	19	19	19	deg	19	deg:19	e=68 q=394 s=270 -> j=93 cert_j=19	-	-	-	-	-	-	68	394	270	93	19	19	19	yes	yes	-	-	-
+277	5	1,10,32,128,342	20	20	degenerate_proof	12	1920	20	1344	20	20	20	deg	20	deg:20	e=68 q=417 s=177 -> j=104 cert_j=20	-	-	-	-	-	-	68	417	177	104	20	20	20	yes	yes	-	-	-
+278	5	1,10,32,132,262	20	20	degenerate_proof	12	2208	20	1008	20	20	20	deg	20	deg:20	e=80 q=500 s=303 -> j=104 cert_j=20	-	-	-	-	-	-	80	500	303	104	20	20	20	yes	yes	-	-	-
+279	5	1,10,32,132,272	20	20	degenerate_proof	12	1824	20	1680	20	20	20	deg	20	deg:20	e=68 q=417 s=249 -> j=104 cert_j=20	-	-	-	-	-	-	68	417	249	104	20	20	20	yes	yes	-	-	-
+280	5	1,10,32,132,274	20	20	backtracking_proof	12	1536	20	2016	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+281	5	1,10,32,132,276	20	20	backtracking_proof	12	1536	20	2016	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+282	5	1,10,32,132,278	20	20	degenerate_proof	12	1824	20	1680	20	20	20	deg	20	deg:20	e=68 q=401 s=313 -> j=104 cert_j=20	-	-	-	-	-	-	68	401	313	104	20	20	20	yes	yes	-	-	-
+283	5	1,10,32,132,324	19	19	backtracking_proof	12	1632	19	1680	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+284	5	1,10,32,132,326	20	20	degenerate_proof	12	1920	20	1344	20	20	20	deg	20	deg:20	e=80 q=309 s=281 -> j=113 cert_j=20	-	-	-	-	-	-	80	309	281	113	20	20	20	yes	yes	-	-	-
+285	5	1,10,32,132,336	20	20	degenerate_proof	12	1536	20	2016	20	20	20	deg	20	deg:20	e=70 q=340 s=99 -> j=97 cert_j=20	-	-	-	-	-	-	70	340	99	97	20	20	20	yes	yes	-	-	-
+286	5	1,10,32,132,338	20	20	degenerate_proof	12	1824	20	1680	20	20	20	deg	20	deg:20	e=68 q=401 s=313 -> j=104 cert_j=20	-	-	-	-	-	-	68	401	313	104	20	20	20	yes	yes	-	-	-
+287	5	1,10,32,132,340	20	20	degenerate_proof	12	1824	20	1680	20	20	20	deg	20	deg:20	e=68 q=417 s=249 -> j=104 cert_j=20	-	-	-	-	-	-	68	417	249	104	20	20	20	yes	yes	-	-	-
+288	5	1,10,32,132,342	20	20	degenerate_proof	12	1536	20	2016	20	20	20	deg	20	deg:20	e=80 q=500 s=303 -> j=104 cert_j=20	-	-	-	-	-	-	80	500	303	104	20	20	20	yes	yes	-	-	-
+289	5	1,10,68,160,304	21	21	backtracking_proof	12	288	21	336	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+290	5	1,10,68,176,272	21	21	backtracking_proof	12	72	21	84	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+291	5	1,10,68,176,274	21	20	degenerate_proof	12	72	21	84	21	21	21	lift	21	deg:20,lift:21	L=20 m4 PASS leaves 1: UNSAT 1 ABORT_left 0 SAT 0	-	-	20	-	-	-	16	273	273	92	20	20	20	NO	NO	-	-	DEG_SHORT
+292	5	1,10,68,176,276	21	21	backtracking_proof	12	144	21	168	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+293	5	1,10,80,132,260	19	19	backtracking_proof	12	768	19	1008	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+294	5	1,10,80,132,262	21	21	backtracking_proof	12	1056	21	672	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+295	5	1,10,80,160,258	21	21	backtracking_proof	12	1824	21	1680	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+296	5	1,10,80,160,262	21	21	backtracking_proof	12	2112	21	1344	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+297	5	1,10,84,128,260	20	20	degenerate_proof	12	1536	20	2016	20	20	20	deg	20	deg:20	e=20 q=169 s=169 -> j=52 cert_j=20	-	-	-	-	-	-	20	169	169	52	20	20	20	yes	yes	-	-	-
+298	5	1,10,84,128,288	19	19	backtracking_proof	12	624	19	1176	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+299	5	1,10,84,128,290	20	20	backtracking_proof	12	912	20	840	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+300	5	1,10,84,160,256	20	20	backtracking_proof	12	192	20	448	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+301	5	1,10,84,160,258	21	20	degenerate_proof	12	864	21	1008	21	21	21	lift	21	deg:20,lift:21	L=20 m4 PASS leaves 6: UNSAT 6 ABORT_left 0 SAT 0	-	-	20	-	-	-	16	273	273	92	20	20	20	NO	NO	-	-	DEG_SHORT
+302	5	1,10,84,160,260	20	20	backtracking_proof	12	1440	20	2352	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+303	5	1,10,84,160,288	20	20	backtracking_proof	12	576	20	1344	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+304	5	1,10,84,160,290	20	20	degenerate_proof	12	864	20	1008	20	20	20	deg	20	deg:20	e=18 q=273 s=473 -> j=95 cert_j=20	-	-	-	-	-	-	18	273	473	95	20	20	20	yes	yes	-	-	-
+305	5	1,10,84,160,292	20	20	backtracking_proof	12	1440	20	2352	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+306	5	1,10,96,128,276	20	20	degenerate_proof	12	1536	20	2016	20	20	20	deg	20	deg:20	e=38 q=212 s=106 -> j=97 cert_j=20	-	-	-	-	-	-	38	212	106	97	20	20	20	yes	yes	-	-	-
+307	5	1,10,96,128,278	20	20	degenerate_proof	12	1824	20	1680	20	20	20	deg	20	deg:20	e=20 q=458 s=93 -> j=104 cert_j=20	-	-	-	-	-	-	20	458	93	104	20	20	20	yes	yes	-	-	-
+308	5	1,10,96,128,294	20	20	degenerate_proof	12	1920	20	1344	20	20	20	deg	20	deg:20	e=20 q=215 s=122 -> j=105 cert_j=20	-	-	-	-	-	-	20	215	122	105	20	20	20	yes	yes	-	-	-
+309	5	1,10,96,128,306	20	20	degenerate_proof	12	1824	20	1680	20	20	20	deg	20	deg:20	e=20 q=215 s=122 -> j=105 cert_j=20	-	-	-	-	-	-	20	215	122	105	20	20	20	yes	yes	-	-	-
+310	5	1,10,96,128,308	20	20	degenerate_proof	12	1824	20	1680	20	20	20	deg	20	deg:20	e=22 q=273 s=281 -> j=109 cert_j=20	-	-	-	-	-	-	22	273	281	109	20	20	20	yes	yes	-	-	-
+311	5	1,10,96,132,274	21	21	backtracking_proof	12	1728	21	2016	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+312	5	1,10,96,132,276	21	21	backtracking_proof	12	1728	21	2016	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+313	5	1,10,96,132,278	20	20	degenerate_proof	12	1440	20	2352	20	20	20	deg	20	deg:20	e=48 q=102 s=478 -> j=113 cert_j=20	-	-	-	-	-	-	48	102	478	113	20	20	20	yes	yes	-	-	-
+314	5	1,10,96,132,292	19	19	backtracking_proof	12	624	19	1176	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+315	5	1,10,96,132,294	21	21	backtracking_proof	12	2112	21	1344	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+316	5	1,10,96,132,304	21	21	backtracking_proof	12	1728	21	2016	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+317	5	1,10,96,132,306	20	20	degenerate_proof	12	1440	20	2352	20	20	20	deg	20	deg:20	e=20 q=244 s=142 -> j=105 cert_j=20	-	-	-	-	-	-	20	244	142	105	20	20	20	yes	yes	-	-	-
+318	5	1,10,96,132,308	20	20	degenerate_proof	12	720	20	1176	20	20	20	deg	20	deg:20	e=18 q=271 s=403 -> j=97 cert_j=20	-	-	-	-	-	-	18	271	403	97	20	20	20	yes	yes	-	-	-
+319	5	1,10,96,132,310	21	21	backtracking_proof	12	1728	21	2016	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+320	5	1,16,36,192,324	16	16	degenerate_proof	12	76	16	42	16	16	16	deg	16	deg:16	e=6 q=401 s=142 -> j=61 cert_j=16	-	-	-	-	-	-	6	401	142	61	16	16	16	yes	yes	-	-	-
+321	5	1,16,36,192,334	19	19	backtracking_proof	12	816	19	840	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+322	5	1,16,36,196,330	20	20	degenerate_proof	12	512	20	672	20	20	20	deg	20	deg:20	e=76 q=102 s=266 -> j=105 cert_j=20	-	-	-	-	-	-	76	102	266	105	20	20	20	yes	yes	-	-	-
+323	5	1,16,96,132,262	20	20	degenerate_proof	12	912	20	840	20	20	20	deg	20	deg:20	e=12 q=244 s=159 -> j=104 cert_j=20	-	-	-	-	-	-	12	244	159	104	20	20	20	yes	yes	-	-	-
+324	5	1,16,96,132,294	20	20	degenerate_proof	12	552	20	252	20	20	20	deg	20	deg:20	e=10 q=281 s=275 -> j=95 cert_j=20	-	-	-	-	-	-	10	281	275	95	20	20	20	yes	yes	-	-	-
+325	5	1,16,96,132,302	20	20	backtracking_proof	12	180	20	294	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+326	5	1,16,96,140,262	20	20	backtracking_proof	12	720	20	1176	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+327	5	1,16,96,140,290	20	20	degenerate_proof	12	912	20	840	20	20	20	deg	20	deg:20	e=10 q=281 s=403 -> j=95 cert_j=20	-	-	-	-	-	-	10	281	403	95	20	20	20	yes	yes	-	-	-
+328	5	1,16,96,140,294	20	20	backtracking_proof	12	720	20	1176	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+329	5	1,16,96,164,262	20	20	degenerate_proof	12	1824	20	1680	20	20	20	deg	20	deg:20	e=10 q=286 s=331 -> j=97 cert_j=20	-	-	-	-	-	-	10	286	331	97	20	20	20	yes	yes	-	-	-
+330	5	1,16,96,164,266	20	20	degenerate_proof	12	1824	20	1680	20	20	20	deg	20	deg:20	e=10 q=273 s=273 -> j=97 cert_j=20	-	-	-	-	-	-	10	273	273	97	20	20	20	yes	yes	-	-	-
+331	5	1,16,96,164,270	20	20	degenerate_proof	12	1440	20	2352	20	20	20	deg	20	deg:20	e=34 q=460 s=95 -> j=104 cert_j=20	-	-	-	-	-	-	34	460	95	104	20	20	20	yes	yes	-	-	-
+332	5	1,16,98,140,256	20	20	backtracking_proof	12	36	20	126	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+333	5	1,16,98,140,258	20	20	degenerate_proof	12	360	20	588	20	20	20	deg	20	deg:20	e=10 q=281 s=467 -> j=95 cert_j=20	-	-	-	-	-	-	10	281	467	95	20	20	20	yes	yes	-	-	-
+334	5	1,16,98,140,260	20	20	backtracking_proof	12	1152	20	2688	20	20	20	routeB	20	routeB:20	L=19 vr PASS 0 leaves	19	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+335	5	1,16,98,164,264	20	20	degenerate_proof	12	1440	20	2352	20	20	20	deg	20	deg:20	e=10 q=286 s=395 -> j=97 cert_j=20	-	-	-	-	-	-	10	286	395	97	20	20	20	yes	yes	-	-	-
+336	5	1,16,98,164,268	20	20	degenerate_proof	12	1440	20	2352	20	20	20	deg	20	deg:20	e=10 q=273 s=465 -> j=97 cert_j=20	-	-	-	-	-	-	10	273	465	97	20	20	20	yes	yes	-	-	-
+337	5	1,16,100,164,270	20	20	degenerate_proof	12	512	20	672	20	20	20	deg	20	deg:20	e=34 q=84 s=179 -> j=113 cert_j=20	-	-	-	-	-	-	34	84	179	113	20	20	20	yes	yes	-	-	-
+338	5	1,20,38,136,326	21	21	backtracking_proof	12	2112	21	1344	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+339	5	1,20,96,136,262	21	20	degenerate_proof	12	1728	21	2016	21	21	21	lift	21	deg:20,lift:21	L=20 vr PASS leaves 0	-	-	20	-	-	-	10	234	93	104	20	20	20	NO	NO	-	-	DEG_SHORT
+340	5	1,20,96,136,266	21	21	backtracking_proof	12	576	21	672	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+341	5	1,20,96,136,290	21	20	degenerate_proof	12	1728	21	2016	21	21	21	lift	21	deg:20,lift:21	L=20 vr PASS leaves 0	-	-	20	-	-	-	10	212	143	105	20	20	20	NO	NO	-	-	DEG_SHORT
+342	5	1,20,96,136,294	20	20	degenerate_proof	12	1728	20	2016	20	20	20	deg	20	deg:20	e=10 q=122 s=94 -> j=104 cert_j=20	-	-	-	-	-	-	10	122	94	104	20	20	20	yes	yes	-	-	-
+343	5	1,20,96,164,270	20	20	degenerate_proof	12	1728	20	2016	20	20	20	deg	20	deg:20	e=12 q=468 s=215 -> j=104 cert_j=20	-	-	-	-	-	-	12	468	215	104	20	20	20	yes	yes	-	-	-
+344	5	1,20,96,164,300	21	21	backtracking_proof	12	2112	21	1344	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+345	5	10,19,68,160,262	21	21	backtracking_proof	12	504	21	420	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+346	5	10,19,68,161,261	20	20	degenerate_proof	12	84	20	70	20	20	20	deg	20	deg:20	e=2 q=281 s=395 -> j=95 cert_j=20	-	-	-	-	-	-	2	281	395	95	20	20	20	yes	yes	-	-	-
+347	5	10,19,68,162,258	21	21	backtracking_proof	12	1008	21	840	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+348	5	10,19,68,164,258	21	21	backtracking_proof	12	672	21	560	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+349	5	10,20,35,68,131	22	22	backtracking_proof	12	800	22	336	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+350	5	10,20,35,68,133	21	21	backtracking_proof	12	800	21	336	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+351	5	10,20,68,161,262	21	21	backtracking_proof	12	672	21	560	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+352	5	10,20,68,162,259	21	21	backtracking_proof	12	2016	21	1680	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+353	5	10,20,96,135,259	21	21	degenerate_proof	12	96	21	80	21	21	21	deg	21	deg:21	e=37 q=93 s=498 -> j=115 cert_j=21	-	-	-	-	-	-	37	93	498	115	21	21	21	yes	yes	-	-	-
+354	5	10,20,96,162,259	21	21	degenerate_proof	12	96	21	80	21	21	21	deg	21	deg:21	e=37 q=93 s=498 -> j=115 cert_j=21	-	-	-	-	-	-	37	93	498	115	21	21	21	yes	yes	-	-	-
+355	4	1,2,4,8	18	18	backtracking_proof	12	3	18	-	-	18	18	routeB	18	routeB:18	L=17 vr PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+356	4	1,2,4,80	18	18	backtracking_proof	12	4	18	7	18	18	18	routeB	18	routeB:18	L=17 vr PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+357	4	1,2,8,16	20	20	degenerate_proof	12	1	20	-	-	20	20	deg	20	deg:20	e=68 q=273 s=473 -> j=124 cert_j=20	-	-	-	-	-	-	68	273	473	124	20	20	20	yes	yes	-	-	-
+358	4	1,2,8,20	20	20	degenerate_proof	12	15	20	-	-	20	20	deg	20	deg:20	e=32 q=273 s=345 -> j=126 cert_j=20	-	-	-	-	-	-	32	273	345	126	20	20	20	yes	yes	-	-	-
+359	4	1,2,8,32	20	20	degenerate_proof	12	24	20	-	-	20	20	deg	20	deg:20	e=20 q=273 s=345 -> j=126 cert_j=20	-	-	-	-	-	-	20	273	345	126	20	20	20	yes	yes	-	-	-
+360	4	1,2,8,64	18	18	backtracking_proof	12	3	18	-	-	18	18	routeB	18	routeB:18	L=17 vr PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+361	4	1,2,8,68	20	20	degenerate_proof	12	15	20	-	-	20	20	deg	20	deg:20	e=16 q=273 s=473 -> j=124 cert_j=20	-	-	-	-	-	-	16	273	473	124	20	20	20	yes	yes	-	-	-
+362	4	1,2,8,80	20	20	degenerate_proof	12	15	20	-	-	20	20	deg	20	deg:20	e=20 q=273 s=473 -> j=128 cert_j=20	-	-	-	-	-	-	20	273	473	128	20	20	20	yes	yes	-	-	-
+363	4	1,2,8,84	20	20	degenerate_proof	12	3	20	21	20	20	20	deg	20	deg:20	e=16 q=273 s=473 -> j=124 cert_j=20	-	-	-	-	-	-	16	273	473	124	20	20	20	yes	yes	-	-	-
+364	4	1,2,8,96	21	21	backtracking_proof	12	36	21	42	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+365	4	1,2,8,128	20	20	degenerate_proof	12	24	20	-	-	20	20	deg	20	deg:20	e=20 q=273 s=465 -> j=130 cert_j=20	-	-	-	-	-	-	20	273	465	130	20	20	20	yes	yes	-	-	-
+366	4	1,2,8,132	21	21	backtracking_proof	12	36	21	42	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+367	4	1,2,8,160	20	20	degenerate_proof	12	72	20	84	20	20	20	deg	20	deg:20	e=16 q=266 s=474 -> j=124 cert_j=20	-	-	-	-	-	-	16	266	474	124	20	20	20	yes	yes	-	-	-
+368	4	1,2,8,256	19	19	backtracking_proof	12	168	19	84	19	19	19	routeB	19	routeB:19	L=18 vr PASS 0 leaves	18	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+369	4	1,2,8,272	20	20	degenerate_proof	12	144	20	168	20	20	20	deg	20	deg:20	e=32 q=266 s=225 -> j=137 cert_j=20	-	-	-	-	-	-	32	266	225	137	20	20	20	yes	yes	-	-	-
+370	4	1,2,12,32	20	20	degenerate_proof	12	60	20	-	-	20	20	deg	20	deg:20	e=16 q=273 s=410 -> j=126 cert_j=20	-	-	-	-	-	-	16	273	410	126	20	20	20	yes	yes	-	-	-
+371	4	1,2,12,80	22	22	backtracking_proof	12	24	22	21	22	22	22	routeB	22	routeB:22	L=21 m4 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+372	4	1,2,12,96	21	21	backtracking_proof	12	48	21	42	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+373	4	1,2,12,132	22	22	backtracking_proof	12	36	22	-	-	22	22	routeB	22	routeB:22	L=21 m8 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+374	4	1,2,12,160	21	21	backtracking_proof	12	96	21	84	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+375	4	1,2,12,256	21	21	backtracking_proof	12	216	21	84	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+376	4	1,2,12,272	21	21	backtracking_proof	12	192	21	168	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+377	4	1,2,32,80	20	20	degenerate_proof	12	216	20	84	20	20	20	deg	20	deg:20	e=8 q=266 s=233 -> j=134 cert_j=20	-	-	-	-	-	-	8	266	233	134	20	20	20	yes	yes	-	-	-
+378	4	1,2,32,84	21	21	backtracking_proof	12	120	21	252	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	L=20 PASS COMPLETE leaves 0	-	-
+379	4	1,2,32,256	18	18	degenerate_proof	12	24	18	-	-	18	18	deg	18	deg:18	e=12 q=273 s=281 -> j=164 cert_j=18	-	-	-	-	-	-	12	273	281	164	18	18	18	yes	yes	-	-	-
+380	4	1,2,32,264	21	21	backtracking_proof	12	168	21	168	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+381	4	1,2,32,320	19	19	degenerate_proof	12	192	19	84	19	19	19	deg	19	deg:19	e=76 q=403 s=345 -> j=171 cert_j=19	-	-	-	-	-	-	76	403	345	171	19	19	19	yes	yes	-	-	-
+382	4	1,2,32,336	20	20	degenerate_proof	12	336	20	336	20	20	20	deg	20	deg:20	e=8 q=266 s=233 -> j=137 cert_j=20	-	-	-	-	-	-	8	266	233	137	20	20	20	yes	yes	-	-	-
+383	4	1,2,80,152	20	20	degenerate_proof	12	4	20	-	-	20	20	deg	20	deg:20	e=8 q=273 s=473 -> j=143 cert_j=20	-	-	-	-	-	-	8	273	473	143	20	20	20	yes	yes	-	-	-
+384	4	1,2,80,156	22	22	backtracking_proof	12	4	22	14	22	22	22	routeB	22	routeB:22	L=21 m4 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+385	4	1,2,80,160	21	21	backtracking_proof	12	192	21	168	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+386	4	1,2,84,160	21	21	backtracking_proof	12	96	21	336	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+387	4	1,2,96,272	20	20	degenerate_proof	12	96	20	168	20	20	20	deg	20	deg:20	e=8 q=273 s=281 -> j=153 cert_j=20	-	-	-	-	-	-	8	273	281	153	20	20	20	yes	yes	-	-	-
+388	4	1,2,96,296	20	20	backtracking_proof	12	48	20	84	20	20	20	routeB	20	routeB:20	L=19 MONOTONE	19	yes	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+389	4	1,2,96,304	21	21	backtracking_proof	12	288	21	504	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+390	4	1,8,20,38	20	20	degenerate_proof	12	4	20	-	-	20	20	deg	20	deg:20	e=2 q=273 s=473 -> j=126 cert_j=20	-	-	-	-	-	-	2	273	473	126	20	20	20	yes	yes	-	-	-
+391	4	1,8,20,64	18	18	backtracking_proof	12	4	18	7	18	18	18	routeB	18	routeB:18	L=17 vr PASS 0 leaves	17	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+392	4	1,8,20,66	22	22	backtracking_proof	12	24	22	21	22	22	22	routeB	22	routeB:22	L=21 m4 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	L=21 PASS COMPLETE leaves 0	-	-
+393	4	1,8,20,68	22	22	backtracking_proof	12	36	22	-	-	22	22	routeB	22	routeB:22	L=21 m8 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+394	4	1,8,20,102	22	22	backtracking_proof	12	4	22	14	22	22	22	routeB	22	routeB:22	L=21 m4 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	L=21 PASS COMPLETE leaves 0	-	-
+395	4	1,8,20,128	20	20	degenerate_proof	12	216	20	84	20	20	20	deg	20	deg:20	e=2 q=273 s=465 -> j=130 cert_j=20	-	-	-	-	-	-	2	273	465	130	20	20	20	yes	yes	-	-	-
+396	4	1,8,20,160	21	21	backtracking_proof	12	192	21	168	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+397	4	1,8,66,128	20	20	degenerate_proof	12	60	20	-	-	20	20	deg	20	deg:20	e=16 q=98 s=458 -> j=143 cert_j=20	-	-	-	-	-	-	16	98	458	143	20	20	20	yes	yes	-	-	-
+398	4	1,8,66,132	21	21	backtracking_proof	12	48	21	42	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+399	4	1,8,66,160	21	21	backtracking_proof	12	96	21	84	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+400	4	1,8,66,256	21	21	backtracking_proof	12	216	21	84	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+401	4	1,8,66,272	21	21	backtracking_proof	12	192	21	168	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+402	4	1,8,84,128	21	21	backtracking_proof	12	120	21	252	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	L=20 PASS COMPLETE leaves 0	-	-
+403	4	1,8,84,160	21	21	backtracking_proof	12	96	21	336	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+404	4	1,8,128,258	21	21	backtracking_proof	12	168	21	168	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+405	4	1,8,128,260	19	19	degenerate_proof	12	192	19	84	19	19	19	deg	19	deg:19	e=20 q=273 s=273 -> j=204 cert_j=19	-	-	-	-	-	-	20	273	273	204	19	19	19	yes	yes	-	-	-
+406	4	1,8,128,276	20	20	degenerate_proof	12	336	20	336	20	20	20	deg	20	deg:20	e=2 q=165 s=394 -> j=150 cert_j=20	-	-	-	-	-	-	2	165	394	150	20	20	20	yes	yes	-	-	-
+407	4	1,8,132,262	20	20	backtracking_proof	12	48	20	84	20	20	20	routeB	20	routeB:20	L=19 MONOTONE	19	yes	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+408	4	1,8,132,272	20	20	degenerate_proof	12	96	20	168	20	20	20	deg	20	deg:20	e=2 q=273 s=273 -> j=157 cert_j=20	-	-	-	-	-	-	2	273	273	157	20	20	20	yes	yes	-	-	-
+409	4	1,8,132,276	21	21	backtracking_proof	12	288	21	504	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	L=20 PASS COMPLETE leaves 0	-	-
+410	4	1,10,16,68	21	21	degenerate_proof	12	48	21	42	21	21	21	deg	21	deg:21	e=160 q=273 s=273 -> j=221 cert_j=21	-	-	-	-	-	-	160	273	273	221	21	21	21	yes	yes	-	-	-
+411	4	1,10,16,96	21	21	backtracking_proof	12	96	21	84	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+412	4	1,10,16,256	21	21	backtracking_proof	12	112	21	112	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+413	4	1,10,16,258	21	21	backtracking_proof	12	160	21	56	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+414	4	1,10,20,32	21	21	degenerate_proof	12	48	21	-	-	21	21	deg	21	deg:21	e=68 q=273 s=273 -> j=230 cert_j=21	-	-	-	-	-	-	68	273	273	230	21	21	21	yes	yes	-	-	-
+415	4	1,10,20,68	22	22	backtracking_proof	12	84	22	-	-	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+416	4	1,10,20,96	22	22	backtracking_proof	12	120	22	84	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+417	4	1,10,20,128	21	21	degenerate_proof	12	264	21	84	21	21	21	deg	21	deg:21	e=68 q=273 s=337 -> j=233 cert_j=21	-	-	-	-	-	-	68	273	337	233	21	21	21	yes	yes	-	-	-
+418	4	1,10,20,160	22	22	backtracking_proof	12	240	22	168	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+419	4	1,10,20,256	21	21	degenerate_proof	12	432	21	336	21	21	21	deg	21	deg:21	e=70 q=305 s=273 -> j=236 cert_j=21	-	-	-	-	-	-	70	305	273	236	21	21	21	yes	yes	-	-	-
+420	4	1,10,20,258	22	22	backtracking_proof	12	576	22	168	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+421	4	1,10,32,68	22	22	backtracking_proof	12	264	22	84	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+422	4	1,10,32,80	21	21	degenerate_proof	12	264	21	84	21	21	21	deg	21	deg:21	e=20 q=273 s=273 -> j=230 cert_j=21	-	-	-	-	-	-	20	273	273	230	21	21	21	yes	yes	-	-	-
+423	4	1,10,32,84	21	21	backtracking_proof	12	168	21	252	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+424	4	1,10,32,128	21	21	backtracking_proof	12	960	21	336	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+425	4	1,10,32,132	21	21	degenerate_proof	12	864	21	672	21	21	21	deg	21	deg:21	e=80 q=273 s=273 -> j=255 cert_j=21	-	-	-	-	-	-	80	273	273	255	21	21	21	yes	yes	-	-	-
+426	4	1,10,32,258	22	22	backtracking_proof	12	312	22	-	-	22	22	routeB	22	routeB:22	L=21 m8 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+427	4	1,10,32,272	22	22	backtracking_proof	12	432	22	336	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+428	4	1,10,32,320	21	21	degenerate_proof	12	480	21	168	21	21	21	deg	21	deg:21	e=70 q=403 s=489 -> j=233 cert_j=21	-	-	-	-	-	-	70	403	489	233	21	21	21	yes	yes	-	-	-
+429	4	1,10,32,336	21	21	degenerate_proof	12	432	21	336	21	21	21	deg	21	deg:21	e=68 q=277 s=273 -> j=253 cert_j=21	-	-	-	-	-	-	68	277	273	253	21	21	21	yes	yes	-	-	-
+430	4	1,10,32,384	21	21	backtracking_proof	12	768	21	672	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+431	4	1,10,32,386	22	22	backtracking_proof	12	1056	22	336	22	22	22	routeB	22	routeB:22	L=21 m8 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+432	4	1,10,68,160	22	22	backtracking_proof	12	40	22	28	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+433	4	1,10,68,176	22	22	backtracking_proof	12	120	22	84	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+434	4	1,10,68,304	22	22	backtracking_proof	12	80	22	56	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+435	4	1,10,80,128	21	21	degenerate_proof	12	48	21	-	-	21	21	deg	21	deg:21	e=20 q=273 s=337 -> j=233 cert_j=21	-	-	-	-	-	-	20	273	337	233	21	21	21	yes	yes	-	-	-
+436	4	1,10,80,132	22	22	backtracking_proof	12	120	22	84	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+437	4	1,10,80,160	22	22	backtracking_proof	12	240	22	168	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+438	4	1,10,80,256	21	21	degenerate_proof	12	432	21	336	21	21	21	deg	21	deg:21	e=22 q=305 s=281 -> j=236 cert_j=21	-	-	-	-	-	-	22	305	281	236	21	21	21	yes	yes	-	-	-
+439	4	1,10,80,258	22	22	backtracking_proof	12	576	22	168	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+440	4	1,10,84,128	21	21	backtracking_proof	12	168	21	252	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+441	4	1,10,84,160	22	21	degenerate_proof	12	144	22	336	22	22	22	lift	22	deg:21,lift:22	L=21 vr PASS leaves 0	-	-	21	-	-	-	16	273	273	221	21	21	21	NO	NO	-	-	DEG_SHORT
+442	4	1,10,84,256	21	21	backtracking_proof	12	240	21	672	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+443	4	1,10,84,258	21	21	backtracking_proof	12	384	21	504	21	21	21	routeB	21	routeB:21	L=20 MONOTONE	20	yes	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+444	4	1,10,96,128	21	21	degenerate_proof	12	864	21	672	21	21	21	deg	21	deg:21	e=20 q=273 s=273 -> j=237 cert_j=21	-	-	-	-	-	-	20	273	273	237	21	21	21	yes	yes	-	-	-
+445	4	1,10,96,132	22	22	backtracking_proof	12	768	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+446	4	1,10,96,256	22	22	backtracking_proof	12	432	22	336	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+447	4	1,10,96,272	22	22	backtracking_proof	12	384	22	504	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+448	4	1,10,96,288	21	21	backtracking_proof	12	144	21	252	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+449	4	1,10,96,290	22	22	backtracking_proof	12	288	22	84	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+450	4	1,10,96,304	22	22	backtracking_proof	12	384	22	504	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+451	4	1,10,96,384	21	21	backtracking_proof	12	672	21	1008	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+452	4	1,10,96,386	22	22	backtracking_proof	12	960	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+453	4	1,10,128,260	21	21	degenerate_proof	12	480	21	168	21	21	21	deg	21	deg:21	e=70 q=161 s=185 -> j=230 cert_j=21	-	-	-	-	-	-	70	161	185	230	21	21	21	yes	yes	-	-	-
+454	4	1,10,128,276	21	21	degenerate_proof	12	432	21	336	21	21	21	deg	21	deg:21	e=68 q=161 s=169 -> j=253 cert_j=21	-	-	-	-	-	-	68	161	169	253	21	21	21	yes	yes	-	-	-
+455	4	1,10,128,288	21	21	backtracking_proof	12	768	21	672	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+456	4	1,10,128,290	22	22	backtracking_proof	12	1056	22	336	22	22	22	routeB	22	routeB:22	L=21 m8 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+457	4	1,10,132,260	21	21	backtracking_proof	12	144	21	252	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+458	4	1,10,132,262	22	22	backtracking_proof	12	288	22	84	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+459	4	1,10,132,272	22	22	backtracking_proof	12	384	22	504	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+460	4	1,10,132,276	22	22	backtracking_proof	12	384	22	504	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+461	4	1,10,132,288	21	21	backtracking_proof	12	672	21	1008	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+462	4	1,10,132,290	22	22	backtracking_proof	12	960	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+463	4	1,10,160,256	22	22	backtracking_proof	12	336	22	504	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	L=21 PASS COMPLETE leaves 0	-	-
+464	4	1,10,160,258	22	22	backtracking_proof	12	960	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+465	4	1,10,160,260	21	21	degenerate_proof	12	672	21	1008	21	21	21	deg	21	deg:21	e=22 q=305 s=401 -> j=248 cert_j=21	-	-	-	-	-	-	22	305	401	248	21	21	21	yes	yes	-	-	-
+466	4	1,10,160,262	22	22	backtracking_proof	12	960	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+467	4	1,10,160,288	21	21	backtracking_proof	12	288	21	504	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+468	4	1,10,160,290	22	22	backtracking_proof	12	576	22	168	22	22	22	routeB	22	routeB:22	L=21 m8 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+469	4	1,10,160,292	21	21	degenerate_proof	12	864	21	672	21	21	21	deg	21	deg:21	e=20 q=279 s=401 -> j=248 cert_j=21	-	-	-	-	-	-	20	279	401	248	21	21	21	yes	yes	-	-	-
+470	4	1,10,160,304	22	22	backtracking_proof	12	384	22	504	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+471	4	1,10,160,306	22	22	backtracking_proof	12	384	22	504	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+472	4	1,10,160,308	22	22	backtracking_proof	12	768	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+473	4	1,16,36,192	20	20	degenerate_proof	12	432	20	168	20	20	20	deg	20	deg:20	e=68 q=99 s=226 -> j=273 cert_j=20	-	-	-	-	-	-	68	99	226	273	20	20	20	yes	yes	-	-	-
+474	4	1,16,36,196	21	21	backtracking_proof	12	384	21	336	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+475	4	1,16,36,448	20	20	degenerate_proof	12	112	20	112	20	20	20	deg	20	deg:20	e=14 q=273 s=185 -> j=231 cert_j=20	-	-	-	-	-	-	14	273	185	231	20	20	20	yes	yes	-	-	-
+476	4	1,16,36,450	20	20	degenerate_proof	12	160	20	56	20	20	20	deg	20	deg:20	e=6 q=273 s=190 -> j=163 cert_j=20	-	-	-	-	-	-	6	273	190	163	20	20	20	yes	yes	-	-	-
+477	4	1,16,96,132	20	20	degenerate_proof	12	132	20	42	20	20	20	deg	20	deg:20	e=2 q=273 s=394 -> j=140 cert_j=20	-	-	-	-	-	-	2	273	394	140	20	20	20	yes	yes	-	-	-
+478	4	1,16,96,140	21	21	backtracking_proof	12	168	21	252	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+479	4	1,16,96,164	21	21	backtracking_proof	12	432	21	336	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+480	4	1,16,96,258	21	21	degenerate_proof	12	864	21	672	21	21	21	deg	21	deg:21	e=12 q=273 s=161 -> j=255 cert_j=21	-	-	-	-	-	-	12	273	161	255	21	21	21	yes	yes	-	-	-
+481	4	1,16,96,290	20	20	degenerate_proof	12	528	20	168	20	20	20	deg	20	deg:20	e=4 q=177 s=165 -> j=174 cert_j=20	-	-	-	-	-	-	4	177	165	174	20	20	20	yes	yes	-	-	-
+482	4	1,16,96,296	21	21	backtracking_proof	12	528	21	168	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+483	4	1,16,96,298	21	21	backtracking_proof	12	336	21	504	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+484	4	1,16,98,140	21	21	backtracking_proof	12	36	21	210	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+485	4	1,16,98,164	21	21	backtracking_proof	12	240	21	672	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+486	4	1,16,98,256	20	20	degenerate_proof	12	128	20	448	20	20	20	deg	20	deg:20	e=140 q=273 s=273 -> j=332 cert_j=20	-	-	-	-	-	-	140	273	273	332	20	20	20	yes	yes	-	-	-
+487	4	1,16,98,258	21	21	backtracking_proof	12	672	21	1008	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+488	4	1,16,98,288	20	20	degenerate_proof	12	576	20	1008	20	20	20	deg	20	deg:20	e=10 q=305 s=273 -> j=227 cert_j=20	-	-	-	-	-	-	10	305	273	227	20	20	20	yes	yes	-	-	-
+489	4	1,16,98,296	21	21	backtracking_proof	12	480	21	1344	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+490	4	1,16,100,164	21	21	backtracking_proof	12	384	21	336	21	21	21	routeB	21	routeB:21	L=20 m4 PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+491	4	1,16,100,258	21	21	backtracking_proof	12	672	21	1008	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+492	4	1,16,100,288	20	20	degenerate_proof	12	112	20	112	20	20	20	deg	20	deg:20	e=12 q=116 s=140 -> j=254 cert_j=20	-	-	-	-	-	-	12	116	140	254	20	20	20	yes	yes	-	-	-
+493	4	1,16,100,290	21	21	degenerate_proof	12	432	21	336	21	21	21	deg	21	deg:21	e=12 q=277 s=169 -> j=255 cert_j=21	-	-	-	-	-	-	12	277	169	255	21	21	21	yes	yes	-	-	-
+494	4	1,16,100,296	21	21	degenerate_proof	12	432	21	336	21	21	21	deg	21	deg:21	e=160 q=107 s=354 -> j=248 cert_j=21	-	-	-	-	-	-	160	107	354	248	21	21	21	yes	yes	-	-	-
+495	4	1,16,100,298	21	21	degenerate_proof	12	240	21	672	21	21	21	deg	21	deg:21	e=12 q=273 s=169 -> j=255 cert_j=21	-	-	-	-	-	-	12	273	169	255	21	21	21	yes	yes	-	-	-
+496	4	1,16,100,386	21	21	degenerate_proof	12	864	21	672	21	21	21	deg	21	deg:21	e=160 q=106 s=482 -> j=295 cert_j=21	-	-	-	-	-	-	160	106	482	295	21	21	21	yes	yes	-	-	-
+497	4	1,16,100,416	20	20	degenerate_proof	12	768	20	672	20	20	20	deg	20	deg:20	e=10 q=311 s=409 -> j=227 cert_j=20	-	-	-	-	-	-	10	311	409	227	20	20	20	yes	yes	-	-	-
+498	4	1,16,100,424	21	21	backtracking_proof	12	672	21	1008	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+499	4	1,16,192,294	20	20	degenerate_proof	12	160	20	56	20	20	20	deg	20	deg:20	e=10 q=236 s=467 -> j=199 cert_j=20	-	-	-	-	-	-	10	236	467	199	20	20	20	yes	yes	-	-	-
+500	4	1,16,196,262	21	21	degenerate_proof	12	432	21	336	21	21	21	deg	21	deg:21	e=102 q=330 s=370 -> j=295 cert_j=21	-	-	-	-	-	-	102	330	370	295	21	21	21	yes	yes	-	-	-
+501	4	1,16,196,264	21	21	backtracking_proof	12	672	21	1008	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+502	4	1,16,196,268	21	21	degenerate_proof	12	432	21	336	21	21	21	deg	21	deg:21	e=66 q=161 s=465 -> j=237 cert_j=21	-	-	-	-	-	-	66	161	465	237	21	21	21	yes	yes	-	-	-
+503	4	1,16,196,270	21	21	degenerate_proof	12	240	21	672	21	21	21	deg	21	deg:21	e=66 q=161 s=401 -> j=237 cert_j=21	-	-	-	-	-	-	66	161	401	237	21	21	21	yes	yes	-	-	-
+504	4	1,16,196,290	21	21	degenerate_proof	12	864	21	672	21	21	21	deg	21	deg:21	e=100 q=106 s=482 -> j=295 cert_j=21	-	-	-	-	-	-	100	106	482	295	21	21	21	yes	yes	-	-	-
+505	4	1,16,196,294	21	21	backtracking_proof	12	672	21	1008	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+506	4	1,16,228,258	21	21	degenerate_proof	12	432	21	336	21	21	21	deg	21	deg:21	e=68 q=161 s=161 -> j=247 cert_j=21	-	-	-	-	-	-	68	161	161	247	21	21	21	yes	yes	-	-	-
+507	4	1,16,228,262	21	21	backtracking_proof	12	672	21	1008	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+508	4	1,16,228,292	20	20	degenerate_proof	12	28	20	28	20	20	20	deg	20	deg:20	e=106 q=273 s=465 -> j=332 cert_j=20	-	-	-	-	-	-	106	273	465	332	20	20	20	yes	yes	-	-	-
+509	4	1,16,228,294	21	21	degenerate_proof	12	432	21	336	21	21	21	deg	21	deg:21	e=70 q=165 s=177 -> j=247 cert_j=21	-	-	-	-	-	-	70	165	177	247	21	21	21	yes	yes	-	-	-
+510	4	1,16,228,302	21	21	backtracking_proof	12	120	21	336	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+511	4	1,20,38,136	21	21	degenerate_proof	12	480	21	336	21	21	21	deg	21	deg:21	e=66 q=161 s=273 -> j=294 cert_j=21	-	-	-	-	-	-	66	161	273	294	21	21	21	yes	yes	-	-	-
+512	4	1,20,38,196	22	22	backtracking_proof	12	576	22	168	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+513	4	1,20,96,136	22	22	backtracking_proof	12	768	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+514	4	1,20,96,164	22	22	backtracking_proof	12	960	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+515	4	1,20,96,258	22	22	backtracking_proof	12	768	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+516	4	1,20,96,290	22	22	backtracking_proof	12	480	22	336	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+517	4	1,20,96,296	21	21	degenerate_proof	12	480	21	336	21	21	21	deg	21	deg:21	e=10 q=273 s=273 -> j=241 cert_j=21	-	-	-	-	-	-	10	273	273	241	21	21	21	yes	yes	-	-	-
+518	4	1,20,96,298	21	21	backtracking_proof	12	288	21	672	21	21	21	routeB	21	routeB:21	L=20 MONOTONE	20	yes	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+519	4	1,20,96,386	22	22	backtracking_proof	12	960	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+520	4	1,20,96,424	22	22	backtracking_proof	12	768	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+521	4	1,20,100,136	22	22	backtracking_proof	12	480	22	336	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	L=21 PASS COMPLETE leaves 0	-	-
+522	4	1,20,100,160	22	22	backtracking_proof	12	576	22	168	22	22	22	routeB	22	routeB:22	L=21 m8 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+523	4	1,20,100,258	22	22	backtracking_proof	12	960	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+524	4	1,20,100,290	22	22	backtracking_proof	12	576	22	168	22	22	22	routeB	22	routeB:22	L=21 m8 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+525	4	1,20,100,296	22	22	backtracking_proof	12	576	22	168	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+526	4	1,20,100,298	21	21	degenerate_proof	12	384	21	504	21	21	21	deg	21	deg:21	e=12 q=273 s=233 -> j=255 cert_j=21	-	-	-	-	-	-	12	273	233	255	21	21	21	yes	yes	-	-	-
+527	4	1,20,102,136	21	21	backtracking_proof	12	288	21	672	21	21	21	routeB	21	routeB:21	L=20 MONOTONE	20	yes	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+528	4	1,20,102,160	21	21	degenerate_proof	12	384	21	504	21	21	21	deg	21	deg:21	e=10 q=305 s=409 -> j=237 cert_j=21	-	-	-	-	-	-	10	305	409	237	21	21	21	yes	yes	-	-	-
+529	4	1,20,102,258	22	22	backtracking_proof	12	768	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+530	4	1,20,102,296	21	21	degenerate_proof	12	576	21	1344	21	21	21	deg	21	deg:21	e=32 q=266 s=116 -> j=253 cert_j=21	-	-	-	-	-	-	32	266	116	253	21	21	21	yes	yes	-	-	-
+531	4	1,20,160,262	22	22	backtracking_proof	12	320	22	224	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+532	4	1,20,160,264	22	22	backtracking_proof	12	768	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	L=21 PASS COMPLETE leaves 0	-	-
+533	4	1,20,160,266	21	21	degenerate_proof	12	768	21	1008	21	21	21	deg	21	deg:21	e=10 q=273 s=273 -> j=247 cert_j=21	-	-	-	-	-	-	10	273	273	247	21	21	21	yes	yes	-	-	-
+534	4	1,20,160,268	22	22	backtracking_proof	12	960	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+535	4	1,20,160,270	21	21	degenerate_proof	12	576	21	1344	21	21	21	deg	21	deg:21	e=70 q=177 s=313 -> j=311 cert_j=21	-	-	-	-	-	-	70	177	313	311	21	21	21	yes	yes	-	-	-
+536	4	1,20,160,322	22	22	backtracking_proof	12	960	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+537	4	1,20,160,326	22	22	backtracking_proof	12	768	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+538	4	1,20,160,328	22	22	backtracking_proof	12	960	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	spaces old 22 new 23 L=22 PASS COMPLETE	-
+539	4	1,20,160,334	21	21	degenerate_proof	12	768	21	1008	21	21	21	deg	21	deg:21	e=10 q=277 s=337 -> j=247 cert_j=21	-	-	-	-	-	-	10	277	337	247	21	21	21	yes	yes	-	-	-
+540	4	1,20,224,290	21	21	degenerate_proof	12	320	21	224	21	21	21	deg	21	deg:21	e=10 q=307 s=281 -> j=250 cert_j=21	-	-	-	-	-	-	10	307	281	250	21	21	21	yes	yes	-	-	-
+541	4	1,20,224,296	22	22	backtracking_proof	12	960	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+542	4	1,20,224,298	21	21	degenerate_proof	12	576	21	1344	21	21	21	deg	21	deg:21	e=38 q=124 s=351 -> j=295 cert_j=21	-	-	-	-	-	-	38	124	351	295	21	21	21	yes	yes	-	-	-
+543	4	1,20,224,300	22	22	backtracking_proof	12	768	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+544	4	1,20,224,302	21	21	degenerate_proof	12	768	21	1008	21	21	21	deg	21	deg:21	e=10 q=307 s=281 -> j=247 cert_j=21	-	-	-	-	-	-	10	307	281	247	21	21	21	yes	yes	-	-	-
+545	4	1,80,160,280	22	22	backtracking_proof	12	320	22	224	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+546	4	1,80,160,282	21	21	degenerate_proof	12	576	21	1344	21	21	21	deg	21	deg:21	e=22 q=183 s=377 -> j=316 cert_j=21	-	-	-	-	-	-	22	183	377	316	21	21	21	yes	yes	-	-	-
+547	4	1,80,160,284	22	22	backtracking_proof	12	768	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+548	4	1,80,160,286	21	21	degenerate_proof	12	768	21	1008	21	21	21	deg	21	deg:21	e=10 q=340 s=85 -> j=247 cert_j=21	-	-	-	-	-	-	10	340	85	247	21	21	21	yes	yes	-	-	-
+549	4	1,80,164,284	21	21	degenerate_proof	12	320	21	224	21	21	21	deg	21	deg:21	e=10 q=307 s=401 -> j=296 cert_j=21	-	-	-	-	-	-	10	307	401	296	21	21	21	yes	yes	-	-	-
+550	4	1,80,164,286	21	21	degenerate_proof	12	576	21	1344	21	21	21	deg	21	deg:21	e=22 q=177 s=377 -> j=319 cert_j=21	-	-	-	-	-	-	22	177	377	319	21	21	21	yes	yes	-	-	-
+551	4	1,84,160,282	21	21	degenerate_proof	12	128	21	560	21	21	21	deg	21	deg:21	e=42 q=167 s=185 -> j=340 cert_j=21	-	-	-	-	-	-	42	167	185	340	21	21	21	yes	yes	-	-	-
+552	4	1,84,160,298	21	21	backtracking_proof	12	128	21	560	21	21	21	routeB	21	routeB:21	L=20 vr PASS 0 leaves	20	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+553	4	10,19,68,160	22	22	backtracking_proof	12	36	22	42	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+554	4	10,19,68,161	22	22	backtracking_proof	12	36	22	42	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+555	4	10,19,68,162	22	22	backtracking_proof	12	72	22	84	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+556	4	10,19,68,164	22	22	backtracking_proof	12	144	22	168	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+557	4	10,19,68,258	22	22	backtracking_proof	12	528	22	336	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+558	4	10,19,68,261	22	22	backtracking_proof	12	132	22	84	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+559	4	10,19,68,262	22	22	backtracking_proof	12	528	22	336	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+560	4	10,19,68,289	22	22	backtracking_proof	12	1056	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+561	4	10,20,35,68	22	22	degenerate_proof	12	416	22	112	22	22	22	deg	22	deg:22	e=131 q=273 s=273 -> j=349 cert_j=22	-	-	-	-	-	-	131	273	273	349	22	22	22	yes	yes	-	-	-
+562	4	10,20,68,131	22	22	degenerate_proof	12	416	22	112	22	22	22	deg	22	deg:22	e=35 q=273 s=273 -> j=349 cert_j=22	-	-	-	-	-	-	35	273	273	349	22	22	22	yes	yes	-	-	-
+563	4	10,20,68,160	22	22	degenerate_proof	12	208	22	56	22	22	22	deg	22	deg:22	e=35 q=273 s=273 -> j=349 cert_j=22	-	-	-	-	-	-	35	273	273	349	22	22	22	yes	yes	-	-	-
+564	4	10,20,68,161	22	22	backtracking_proof	12	432	22	504	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+565	4	10,20,68,162	22	22	backtracking_proof	12	1056	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+566	4	10,20,68,164	22	22	backtracking_proof	12	1056	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+567	4	10,20,68,166	22	22	backtracking_proof	12	624	22	168	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+568	4	10,20,68,167	22	22	backtracking_proof	12	432	22	504	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+569	4	10,20,68,258	22	22	backtracking_proof	12	60	22	-	-	22	22	routeB	22	routeB:22	L=21 m8 PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+570	4	10,20,68,259	22	22	backtracking_proof	12	264	22	168	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+571	4	10,20,68,262	22	22	degenerate_proof	12	1248	22	336	22	22	22	deg	22	deg:22	e=35 q=273 s=141 -> j=349 cert_j=22	-	-	-	-	-	-	35	273	141	349	22	22	22	yes	yes	-	-	-
+572	4	10,20,68,289	22	22	backtracking_proof	12	1056	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+573	4	10,20,68,385	22	22	backtracking_proof	12	1056	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+574	4	10,20,96,131	22	22	backtracking_proof	12	864	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+575	4	10,20,96,133	22	22	backtracking_proof	12	864	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+576	4	10,20,96,135	22	22	degenerate_proof	12	1056	22	672	22	22	22	deg	22	deg:22	e=37 q=275 s=345 -> j=349 cert_j=22	-	-	-	-	-	-	37	275	345	349	22	22	22	yes	yes	-	-	-
+577	4	10,20,96,161	22	22	backtracking_proof	12	864	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+578	4	10,20,96,162	22	22	degenerate_proof	12	1056	22	672	22	22	22	deg	22	deg:22	e=37 q=275 s=345 -> j=349 cert_j=22	-	-	-	-	-	-	37	275	345	349	22	22	22	yes	yes	-	-	-
+579	4	10,20,96,164	22	22	backtracking_proof	12	528	22	336	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+580	4	10,20,96,167	22	22	backtracking_proof	12	864	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+581	4	10,20,96,259	22	22	degenerate_proof	12	288	22	336	22	22	22	deg	22	deg:22	e=37 q=275 s=204 -> j=349 cert_j=22	-	-	-	-	-	-	37	275	204	349	22	22	22	yes	yes	-	-	-
+582	4	10,20,96,261	22	22	backtracking_proof	12	864	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+583	4	10,20,96,391	22	22	backtracking_proof	12	864	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+584	4	10,20,96,419	22	22	backtracking_proof	12	864	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+585	4	10,20,96,421	22	22	backtracking_proof	12	864	22	1008	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+586	4	10,68,161,304	22	22	backtracking_proof	12	224	22	448	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+587	4	10,68,162,309	22	22	backtracking_proof	12	336	22	672	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+588	4	10,68,178,279	21	21	backtracking_proof	12	28	21	56	21	21	21	routeB	21	routeB:21	L=20 MONOTONE	20	yes	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+589	4	10,68,179,276	22	22	backtracking_proof	12	168	22	336	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+590	4	10,84,163,257	22	22	backtracking_proof	12	672	22	1344	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+591	4	10,84,163,262	22	22	backtracking_proof	12	224	22	448	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+592	4	10,96,165,276	22	22	backtracking_proof	12	32	22	64	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+593	4	10,96,167,308	22	22	backtracking_proof	12	32	22	64	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+594	3	1,2,4	19	19	backtracking_proof	12	-	-	-	-	-	19	MISSING	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	UNUSED,MISSING,TV2>CERT
+595	3	1,2,8	21	21	degenerate_proof	12	3	21	-	-	21	21	deg	21	deg:21	e=96 q=273 s=345 -> j=364 cert_j=21	-	-	-	-	-	-	96	273	345	364	21	21	21	yes	yes	-	-	-
+596	3	1,2,12	22	22	degenerate_proof	12	6	22	-	-	22	22	deg	22	deg:22	e=80 q=273 s=465 -> j=371 cert_j=22	-	-	-	-	-	-	80	273	465	371	22	22	22	yes	yes	-	-	-
+597	3	1,2,32	21	21	degenerate_proof	12	12	21	-	-	21	21	deg	21	deg:21	e=68 q=161 s=281 -> j=375 cert_j=21	-	-	-	-	-	-	68	161	281	375	21	21	21	yes	yes	-	-	-
+598	3	1,2,80	22	22	degenerate_proof	12	4	22	-	-	22	22	deg	22	deg:22	e=12 q=273 s=465 -> j=371 cert_j=22	-	-	-	-	-	-	12	273	465	371	22	22	22	yes	yes	-	-	-
+599	3	1,2,84	22	22	degenerate_proof	12	-	-	7	22	22	22	deg	22	deg:22	e=12 q=273 s=473 -> j=371 cert_j=22	-	-	-	-	-	-	12	273	473	371	22	22	22	yes	yes	-	-	-
+600	3	1,2,96	22	22	backtracking_proof	12	24	22	42	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+601	3	1,8,20	22	22	degenerate_proof	12	4	22	-	-	22	22	deg	22	deg:22	e=66 q=273 s=345 -> j=392 cert_j=22	-	-	-	-	-	-	66	273	345	392	22	22	22	yes	yes	-	-	-
+602	3	1,8,64	19	19	backtracking_proof	12	-	-	-	-	-	19	MISSING	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	UNUSED,MISSING,TV2>CERT
+603	3	1,8,66	22	22	degenerate_proof	12	6	22	-	-	22	22	deg	22	deg:22	e=20 q=273 s=345 -> j=392 cert_j=22	-	-	-	-	-	-	20	273	345	392	22	22	22	yes	yes	-	-	-
+604	3	1,8,84	22	22	degenerate_proof	12	-	-	7	22	22	22	deg	22	deg:22	e=22 q=273 s=473 -> j=392 cert_j=22	-	-	-	-	-	-	22	273	473	392	22	22	22	yes	yes	-	-	-
+605	3	1,8,128	21	21	degenerate_proof	12	12	21	-	-	21	21	deg	21	deg:21	e=68 q=273 s=169 -> j=400 cert_j=21	-	-	-	-	-	-	68	273	169	400	21	21	21	yes	yes	-	-	-
+606	3	1,8,132	22	22	backtracking_proof	12	24	22	42	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+607	3	1,10,16	22	22	backtracking_proof	12	4	22	-	-	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+608	3	1,10,20	22	22	degenerate_proof	12	18	22	-	-	22	22	deg	22	deg:22	e=68 q=273 s=337 -> j=415 cert_j=22	-	-	-	-	-	-	68	273	337	415	22	22	22	yes	yes	-	-	-
+609	3	1,10,32	22	22	degenerate_proof	12	60	22	-	-	22	22	deg	22	deg:22	e=68 q=273 s=281 -> j=421 cert_j=22	-	-	-	-	-	-	68	273	281	421	22	22	22	yes	yes	-	-	-
+610	3	1,10,68	23	23	backtracking_proof	12	6	24	-	-	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+611	3	1,10,80	22	22	degenerate_proof	12	18	22	-	-	22	22	deg	22	deg:22	e=20 q=273 s=337 -> j=415 cert_j=22	-	-	-	-	-	-	20	273	337	415	22	22	22	yes	yes	-	-	-
+612	3	1,10,84	22	22	backtracking_proof	12	6	22	21	22	22	22	routeB	22	routeB:22	L=21 MONOTONE	21	yes	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+613	3	1,10,96	23	23	backtracking_proof	12	48	24	42	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	L=22 PASS COMPLETE leaves 0	-	-
+614	3	1,10,128	22	22	degenerate_proof	12	60	22	-	-	22	22	deg	22	deg:22	e=68 q=161 s=169 -> j=421 cert_j=22	-	-	-	-	-	-	68	161	169	421	22	22	22	yes	yes	-	-	-
+615	3	1,10,132	23	23	backtracking_proof	12	48	24	42	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+616	3	1,10,160	22	22	degenerate_proof	12	96	22	84	22	22	22	deg	22	deg:22	e=20 q=273 s=273 -> j=418 cert_j=22	-	-	-	-	-	-	20	273	273	418	22	22	22	yes	yes	-	-	-
+617	3	1,10,256	22	22	degenerate_proof	12	72	22	84	22	22	22	deg	22	deg:22	e=70 q=177 s=313 -> j=421 cert_j=22	-	-	-	-	-	-	70	177	313	421	22	22	22	yes	yes	-	-	-
+618	3	1,10,258	23	23	backtracking_proof	12	144	24	-	-	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+619	3	1,10,272	23	23	backtracking_proof	12	192	24	168	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+620	3	1,16,36	21	21	degenerate_proof	12	16	21	-	-	21	21	deg	21	deg:21	e=14 q=273 s=185 -> j=414 cert_j=21	-	-	-	-	-	-	14	273	185	414	21	21	21	yes	yes	-	-	-
+621	3	1,16,96	22	22	degenerate_proof	12	60	22	-	-	22	22	deg	22	deg:22	e=34 q=266 s=114 -> j=426 cert_j=22	-	-	-	-	-	-	34	266	114	426	22	22	22	yes	yes	-	-	-
+622	3	1,16,98	22	22	backtracking_proof	12	12	22	84	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+623	3	1,16,100	22	22	degenerate_proof	12	72	22	84	22	22	22	deg	22	deg:22	e=34 q=266 s=114 -> j=427 cert_j=22	-	-	-	-	-	-	34	266	114	427	22	22	22	yes	yes	-	-	-
+624	3	1,16,192	21	21	degenerate_proof	12	16	21	-	-	21	21	deg	21	deg:21	e=12 q=273 s=169 -> j=428 cert_j=21	-	-	-	-	-	-	12	273	169	428	21	21	21	yes	yes	-	-	-
+625	3	1,16,196	22	22	degenerate_proof	12	72	22	84	22	22	22	deg	22	deg:22	e=76 q=417 s=169 -> j=446 cert_j=22	-	-	-	-	-	-	76	417	169	446	22	22	22	yes	yes	-	-	-
+626	3	1,16,228	22	22	degenerate_proof	12	36	22	42	22	22	22	deg	22	deg:22	e=68 q=98 s=98 -> j=463 cert_j=22	-	-	-	-	-	-	68	98	98	463	22	22	22	yes	yes	-	-	-
+627	3	1,16,256	21	21	degenerate_proof	12	48	21	28	21	21	21	deg	21	deg:21	e=10 q=273 s=273 -> j=412 cert_j=21	-	-	-	-	-	-	10	273	273	412	21	21	21	yes	yes	-	-	-
+628	3	1,16,258	22	22	degenerate_proof	12	384	22	168	22	22	22	deg	22	deg:22	e=14 q=277 s=177 -> j=431 cert_j=22	-	-	-	-	-	-	14	277	177	431	22	22	22	yes	yes	-	-	-
+629	3	1,16,266	22	22	backtracking_proof	12	96	22	252	22	22	22	routeB	22	routeB:22	L=21 vr PASS 0 leaves	21	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+630	3	1,20,38	22	22	degenerate_proof	12	24	22	-	-	22	22	deg	22	deg:22	e=66 q=161 s=273 -> j=458 cert_j=22	-	-	-	-	-	-	66	161	273	458	22	22	22	yes	yes	-	-	-
+631	3	1,20,96	22	22	degenerate_proof	12	96	22	84	22	22	22	deg	22	deg:22	e=8 q=266 s=233 -> j=392 cert_j=22	-	-	-	-	-	-	8	266	233	392	22	22	22	yes	yes	-	-	-
+632	3	1,20,100	23	23	backtracking_proof	12	72	23	-	-	23	23	routeB	23	routeB:23	L=22 vr PASS 0 leaves	22	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+633	3	1,20,102	22	22	degenerate_proof	12	24	22	84	22	22	22	deg	22	deg:22	e=8 q=273 s=345 -> j=394 cert_j=22	-	-	-	-	-	-	8	273	345	394	22	22	22	yes	yes	-	-	-
+634	3	1,20,136	22	22	degenerate_proof	12	96	22	84	22	22	22	deg	22	deg:22	e=2 q=273 s=458 -> j=371 cert_j=22	-	-	-	-	-	-	2	273	458	371	22	22	22	yes	yes	-	-	-
+635	3	1,20,160	22	22	degenerate_proof	12	192	22	168	22	22	22	deg	22	deg:22	e=10 q=273 s=273 -> j=418 cert_j=22	-	-	-	-	-	-	10	273	273	418	22	22	22	yes	yes	-	-	-
+636	3	1,20,196	23	23	backtracking_proof	12	72	23	-	-	23	23	routeB	23	routeB:23	L=22 vr PASS 0 leaves	22	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+637	3	1,20,224	22	22	degenerate_proof	12	192	22	168	22	22	22	deg	22	deg:22	e=10 q=305 s=473 -> j=418 cert_j=22	-	-	-	-	-	-	10	305	473	418	22	22	22	yes	yes	-	-	-
+638	3	1,20,258	22	22	degenerate_proof	12	240	22	84	22	22	22	deg	22	deg:22	e=10 q=273 s=273 -> j=420 cert_j=22	-	-	-	-	-	-	10	273	273	420	22	22	22	yes	yes	-	-	-
+639	3	1,20,264	22	22	degenerate_proof	12	480	22	168	22	22	22	deg	22	deg:22	e=10 q=273 s=273 -> j=420 cert_j=22	-	-	-	-	-	-	10	273	273	420	22	22	22	yes	yes	-	-	-
+640	3	1,20,266	22	22	degenerate_proof	12	288	22	504	22	22	22	deg	22	deg:22	e=66 q=161 s=337 -> j=445 cert_j=22	-	-	-	-	-	-	66	161	337	445	22	22	22	yes	yes	-	-	-
+641	3	1,80,152	22	22	degenerate_proof	12	24	22	-	-	22	22	deg	22	deg:22	e=12 q=273 s=169 -> j=449 cert_j=22	-	-	-	-	-	-	12	273	169	449	22	22	22	yes	yes	-	-	-
+642	3	1,80,156	22	22	degenerate_proof	12	24	22	84	22	22	22	deg	22	deg:22	e=2 q=273 s=465 -> j=384 cert_j=22	-	-	-	-	-	-	2	273	465	384	22	22	22	yes	yes	-	-	-
+643	3	1,80,160	22	22	degenerate_proof	12	192	22	168	22	22	22	deg	22	deg:22	e=10 q=273 s=273 -> j=437 cert_j=22	-	-	-	-	-	-	10	273	273	437	22	22	22	yes	yes	-	-	-
+644	3	1,80,164	22	22	degenerate_proof	12	192	22	168	22	22	22	deg	22	deg:22	e=10 q=275 s=473 -> j=437 cert_j=22	-	-	-	-	-	-	10	275	473	437	22	22	22	yes	yes	-	-	-
+645	3	1,80,264	22	22	degenerate_proof	12	240	22	84	22	22	22	deg	22	deg:22	e=10 q=273 s=273 -> j=439 cert_j=22	-	-	-	-	-	-	10	273	273	439	22	22	22	yes	yes	-	-	-
+646	3	1,80,266	22	22	degenerate_proof	12	288	22	504	22	22	22	deg	22	deg:22	e=12 q=277 s=161 -> j=445 cert_j=22	-	-	-	-	-	-	12	277	161	445	22	22	22	yes	yes	-	-	-
+647	3	1,84,160	22	22	degenerate_proof	12	192	22	672	22	22	22	deg	22	deg:22	e=12 q=273 s=225 -> j=450 cert_j=22	-	-	-	-	-	-	12	273	225	450	22	22	22	yes	yes	-	-	-
+648	3	1,84,266	22	22	degenerate_proof	12	48	22	420	22	22	22	deg	22	deg:22	e=12 q=277 s=225 -> j=445 cert_j=22	-	-	-	-	-	-	12	277	225	445	22	22	22	yes	yes	-	-	-
+649	3	1,160,304	22	22	degenerate_proof	12	16	22	28	22	22	22	deg	22	deg:22	e=10 q=273 s=273 -> j=470 cert_j=22	-	-	-	-	-	-	10	273	273	470	22	22	22	yes	yes	-	-	-
+650	3	1,160,306	22	22	degenerate_proof	12	48	22	84	22	22	22	deg	22	deg:22	e=10 q=273 s=273 -> j=471 cert_j=22	-	-	-	-	-	-	10	273	273	471	22	22	22	yes	yes	-	-	-
+651	3	1,160,312	22	22	degenerate_proof	12	48	22	84	22	22	22	deg	22	deg:22	e=10 q=273 s=273 -> j=471 cert_j=22	-	-	-	-	-	-	10	273	273	471	22	22	22	yes	yes	-	-	-
+652	3	1,160,314	22	22	degenerate_proof	12	48	22	84	22	22	22	deg	22	deg:22	e=10 q=273 s=273 -> j=470 cert_j=22	-	-	-	-	-	-	10	273	273	470	22	22	22	yes	yes	-	-	-
+653	3	1,160,316	22	22	degenerate_proof	12	96	22	168	22	22	22	deg	22	deg:22	e=10 q=305 s=401 -> j=472 cert_j=22	-	-	-	-	-	-	10	305	401	472	22	22	22	yes	yes	-	-	-
+654	3	10,19,68	23	23	backtracking_proof	12	60	24	42	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+655	3	10,19,257	23	23	backtracking_proof	12	96	24	28	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+656	3	10,20,35	23	23	backtracking_proof	12	8	24	-	-	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+657	3	10,20,68	23	23	backtracking_proof	12	336	24	-	-	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+658	3	10,20,96	23	23	backtracking_proof	12	480	24	336	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+659	3	10,20,129	23	23	backtracking_proof	12	576	24	168	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+660	3	10,20,161	23	23	backtracking_proof	12	192	24	252	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+661	3	10,20,449	23	23	backtracking_proof	12	96	24	28	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+662	3	10,20,450	23	23	backtracking_proof	12	192	24	56	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+663	3	10,68,160	23	23	backtracking_proof	12	4	24	-	-	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+664	3	10,68,161	23	23	backtracking_proof	12	12	24	28	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+665	3	10,68,162	23	23	backtracking_proof	12	120	24	84	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+666	3	10,68,178	23	23	backtracking_proof	12	28	24	-	-	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+667	3	10,68,179	23	22	degenerate_proof	12	36	24	84	24	24	24	raised	24	deg:22,raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	1	273	337	433	22	22	22	NO	NO	-	-	DEG_SHORT
+668	3	10,68,180	23	23	backtracking_proof	12	240	24	168	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+669	3	10,68,304	23	23	backtracking_proof	12	128	24	168	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+670	3	10,68,305	23	23	backtracking_proof	12	192	24	56	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+671	3	10,80,131	23	23	backtracking_proof	12	8	24	-	-	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+672	3	10,80,132	23	23	backtracking_proof	12	480	24	336	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+673	3	10,80,161	23	23	backtracking_proof	12	192	24	252	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+674	3	10,80,293	23	23	backtracking_proof	12	96	24	28	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+675	3	10,80,294	23	23	backtracking_proof	12	192	24	56	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+676	3	10,84,163	22	22	degenerate_proof	12	8	22	84	22	22	22	deg	22	deg:22	e=19 q=273 s=465 -> j=555 cert_j=22	-	-	-	-	-	-	19	273	465	555	22	22	22	yes	yes	-	-	-
+677	3	10,84,164	23	23	backtracking_proof	12	288	24	672	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+678	3	10,84,258	23	22	degenerate_proof	12	96	24	224	24	24	24	raised	24	deg:22,raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	4	161	84	464	22	22	22	NO	NO	-	-	DEG_SHORT
+679	3	10,84,259	23	23	backtracking_proof	12	480	24	336	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+680	3	10,84,289	23	23	backtracking_proof	12	192	24	252	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+681	3	10,84,290	23	23	backtracking_proof	12	128	24	168	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+682	3	10,84,293	23	22	degenerate_proof	12	96	24	420	24	24	24	raised	24	deg:22,raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	4	417	140	460	22	22	22	NO	NO	-	-	DEG_SHORT
+683	3	10,84,294	23	23	backtracking_proof	12	384	24	504	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+684	3	10,96,165	23	23	backtracking_proof	12	128	24	168	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+685	3	10,96,167	23	23	backtracking_proof	12	128	24	168	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+686	3	10,96,276	23	23	backtracking_proof	12	96	24	224	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+687	3	10,96,385	23	23	backtracking_proof	12	96	24	224	24	24	24	raised	24	raised:24	planes old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	-	-	-	-	-	-	-	-	-	-	-	-
+688	3	84,163,286	22	22	degenerate_proof	12	-	-	8	22	22	22	deg	22	deg:22	e=12 q=273 s=225 -> j=593 cert_j=22	-	-	-	-	-	-	12	273	225	593	22	22	22	yes	yes	-	-	-
+689	2	1,2	23	23	backtracking_proof	12	-	-	-	-	-	23	MISSING	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	UNUSED,MISSING,TV2>CERT
+690	2	1,8	22	22	degenerate_proof	12	-	-	-	-	-	23	raised	23	deg:22,raised:23	lines old 22 new 23 L=22 PASS COMPLETE	-	-	-	22	23	22	20	273	345	601	22	22	22	yes	yes	-	-	UNUSED
+691	2	1,10	23	23	degenerate_proof	12	3	24	-	-	24	24	raised	24	deg:24,raised:24	lines old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	68	273	345	610	23	24	24	NO	yes	-	-	DEG_SHORT
+692	2	1,16	22	22	degenerate_proof	12	3	23	-	-	23	23	raised	23	deg:22,raised:23	lines old 22 new 23 L=22 PASS COMPLETE	-	-	-	22	23	22	10	273	465	607	22	22	22	NO	NO	-	-	DEG_SHORT
+693	2	1,20	23	23	degenerate_proof	12	12	24	-	-	24	24	raised	24	deg:24,raised:24	lines old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	66	161	337	615	23	24	24	NO	yes	-	-	DEG_SHORT
+694	2	1,80	23	23	degenerate_proof	12	12	24	-	-	24	24	raised	24	deg:24,raised:24	lines old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	12	273	169	613	23	24	24	NO	yes	-	-	DEG_SHORT
+695	2	1,84	23	23	degenerate_proof	12	-	-	21	24	24	24	raised	24	deg:24,raised:24	lines old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	12	273	233	613	23	24	24	NO	yes	-	-	DEG_SHORT
+696	2	1,160	23	23	degenerate_proof	12	16	24	28	24	24	24	raised	24	deg:24,raised:24	lines old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	12	273	161	619	23	24	24	NO	yes	-	-	DEG_SHORT
+697	2	10,19	23	23	degenerate_proof	12	1	24	-	-	24	24	raised	24	deg:24,raised:24	lines old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	68	273	273	654	23	24	24	NO	yes	-	-	DEG_SHORT
+698	2	10,20	24	23	degenerate_proof	12	12	24	-	-	24	24	lift	24	deg:24,lift:24	L=23 vr PASS leaves 0	-	-	23	-	-	-	35	273	499	656	23	24	24	NO	yes	-	-	DEG_SHORT
+699	2	10,68	24	24	backtracking_proof	12	12	24	-	-	24	24	routeB	24	routeB:24	L=23 vr PASS 0 leaves	23	no	-	-	-	-	-	-	-	-	-	-	-	-	-	L=23 PASS COMPLETE leaves 0	-	-
+700	2	10,80	24	23	degenerate_proof	12	12	24	-	-	24	24	lift	24	deg:24,lift:24	L=23 vr PASS leaves 0	-	-	23	-	-	-	20	273	273	657	23	24	24	NO	yes	-	-	DEG_SHORT
+701	2	10,84	24	23	degenerate_proof	12	12	24	42	24	24	24	lift	24	deg:24,lift:24	L=23 vr PASS leaves 0	-	-	23	-	-	-	19	273	465	654	23	24	24	NO	yes	-	-	DEG_SHORT
+702	2	10,96	23	23	degenerate_proof	12	96	24	84	24	24	24	raised	24	deg:24,raised:24	lines old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	1	273	281	613	23	24	24	NO	yes	-	-	DEG_SHORT
+703	2	10,258	24	24	backtracking_proof	12	48	24	-	-	24	24	routeB	24	routeB:24	L=23 vr PASS 0 leaves	23	no	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+704	2	10,275	24	23	degenerate_proof	12	16	24	56	24	24	24	lift	24	deg:24,lift:24	L=23 vr PASS leaves 0	-	-	23	-	-	-	1	273	281	619	23	24	24	NO	yes	-	-	DEG_SHORT
+705	2	84,163	23	23	degenerate_proof	12	-	-	24	24	24	24	raised	24	deg:24,raised:24	lines old 23 new 24 L=23 PASS COMPLETE	-	-	-	23	24	23	11	305	281	677	23	24	24	NO	yes	-	-	DEG_SHORT
+706	1	1	24	23	degenerate_proof	12	-	-	-	-	-	24	MISSING	-	-	-	-	-	-	-	-	-	2	273	474	689	23	23	-	NO	NO	-	-	UNUSED,MISSING,TV2>CERT,DEG_SHORT
+707	1	10	24	24	degenerate_proof	12	-	-	-	-	-	24	point	26	deg:24,point:26	P707R2b R=25 (IP header): R+1; its trace result is not checked here	-	-	-	-	-	-	68	273	273	699	24	24	24	yes	yes	-	-	UNUSED
+708	1	84	24	24	backtracking_proof	12	-	-	-	-	-	24	point	26	point:26	P708R2 R=25 (IP header): R+1; its trace result is not checked here	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	UNUSED
+709	0	-	26	25	backtracking_proof	12	-	-	-	-	-	26	MISSING	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	UNUSED,MISSING,TV2>CERT

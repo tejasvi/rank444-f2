@@ -1,0 +1,20 @@
+import B334.E1x.Pts.S707.Ctx
+import B334.E1x.Pts.S707.K473L
+import B334.E1x.Pts.ChkB
+
+set_option maxHeartbeats 0
+set_option maxRecDepth 100000
+
+/-! # Job 473 of `S707`, parts 1030 … 1047, re-packed by predicted kernel memory (1.23 of 8.19 GB;
+stage707_v5; the theorems are v3's `K473C*` theorems verbatim; core Lean) -/
+
+namespace B334.E1x.Pts.S707
+
+theorem kb_473_1030 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K473.lits.getD i 0)) 1030 1 = true := by
+  decide +kernel
+theorem kg_473_1030 : IPChk.allR (Pts.glueIB K473.lits KW_473) 1030 1 = true := by decide +kernel
+theorem kb_473_1031 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K473.lits.getD i 0)) 1031 17 = true := by
+  decide +kernel
+theorem kg_473_1031 : IPChk.allR (Pts.glueIB K473.lits KW_473) 1031 17 = true := by decide +kernel
+
+end B334.E1x.Pts.S707

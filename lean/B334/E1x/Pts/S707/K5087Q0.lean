@@ -1,0 +1,29 @@
+import B334.E1x.Pts.S707.Ctx
+import B334.E1x.Pts.S707.K5087L
+import B334.E1x.Pts.ChkB
+
+set_option maxHeartbeats 0
+set_option maxRecDepth 100000
+
+/-! # Job 5087 of `S707`, parts 0 … 4, re-packed by predicted kernel memory (3.09 of 8.19 GB;
+stage707_v5; the theorems are v3's `K5087C*` theorems verbatim; core Lean) -/
+
+namespace B334.E1x.Pts.S707
+
+theorem kb_5087_0 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K5087.lits.getD i 0)) 0 1 = true := by
+  decide +kernel
+theorem kg_5087_0 : IPChk.allR (Pts.glueIB K5087.lits KW_5087) 0 1 = true := by decide +kernel
+theorem kb_5087_1 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K5087.lits.getD i 0)) 1 1 = true := by
+  decide +kernel
+theorem kg_5087_1 : IPChk.allR (Pts.glueIB K5087.lits KW_5087) 1 1 = true := by decide +kernel
+theorem kb_5087_2 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K5087.lits.getD i 0)) 2 1 = true := by
+  decide +kernel
+theorem kg_5087_2 : IPChk.allR (Pts.glueIB K5087.lits KW_5087) 2 1 = true := by decide +kernel
+theorem kb_5087_3 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K5087.lits.getD i 0)) 3 1 = true := by
+  decide +kernel
+theorem kg_5087_3 : IPChk.allR (Pts.glueIB K5087.lits KW_5087) 3 1 = true := by decide +kernel
+theorem kb_5087_4 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K5087.lits.getD i 0)) 4 1 = true := by
+  decide +kernel
+theorem kg_5087_4 : IPChk.allR (Pts.glueIB K5087.lits KW_5087) 4 1 = true := by decide +kernel
+
+end B334.E1x.Pts.S707

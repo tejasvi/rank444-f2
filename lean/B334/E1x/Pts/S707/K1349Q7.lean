@@ -1,0 +1,44 @@
+import B334.E1x.Pts.S707.Ctx
+import B334.E1x.Pts.S707.K1349L
+import B334.E1x.Pts.ChkB
+
+set_option maxHeartbeats 0
+set_option maxRecDepth 100000
+
+/-! # Job 1349 of `S707`, parts 552 … 569, re-packed by predicted kernel memory (7.74 of 8.19 GB;
+stage707_v5; the theorems are v3's `K1349C*` theorems verbatim; core Lean) -/
+
+namespace B334.E1x.Pts.S707
+
+theorem kb_1349_552 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K1349.lits.getD i 0)) 552 5 = true := by
+  decide +kernel
+theorem kg_1349_552 : IPChk.allR (Pts.glueIB K1349.lits KW_1349) 552 5 = true := by decide +kernel
+theorem kb_1349_557 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K1349.lits.getD i 0)) 557 1 = true := by
+  decide +kernel
+theorem kg_1349_557 : IPChk.allR (Pts.glueIB K1349.lits KW_1349) 557 1 = true := by decide +kernel
+theorem kb_1349_558 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K1349.lits.getD i 0)) 558 1 = true := by
+  decide +kernel
+theorem kg_1349_558 : IPChk.allR (Pts.glueIB K1349.lits KW_1349) 558 1 = true := by decide +kernel
+theorem kb_1349_559 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K1349.lits.getD i 0)) 559 1 = true := by
+  decide +kernel
+theorem kg_1349_559 : IPChk.allR (Pts.glueIB K1349.lits KW_1349) 559 1 = true := by decide +kernel
+theorem kb_1349_560 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K1349.lits.getD i 0)) 560 1 = true := by
+  decide +kernel
+theorem kg_1349_560 : IPChk.allR (Pts.glueIB K1349.lits KW_1349) 560 1 = true := by decide +kernel
+theorem kb_1349_561 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K1349.lits.getD i 0)) 561 3 = true := by
+  decide +kernel
+theorem kg_1349_561 : IPChk.allR (Pts.glueIB K1349.lits KW_1349) 561 3 = true := by decide +kernel
+theorem kb_1349_564 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K1349.lits.getD i 0)) 564 1 = true := by
+  decide +kernel
+theorem kg_1349_564 : IPChk.allR (Pts.glueIB K1349.lits KW_1349) 564 1 = true := by decide +kernel
+theorem kb_1349_565 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K1349.lits.getD i 0)) 565 1 = true := by
+  decide +kernel
+theorem kg_1349_565 : IPChk.allR (Pts.glueIB K1349.lits KW_1349) 565 1 = true := by decide +kernel
+theorem kb_1349_566 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K1349.lits.getD i 0)) 566 2 = true := by
+  decide +kernel
+theorem kg_1349_566 : IPChk.allR (Pts.glueIB K1349.lits KW_1349) 566 2 = true := by decide +kernel
+theorem kb_1349_568 : IPChk.allR (fun i => E1P.block CL Pts.H707.sl Pts.H707.UB Pts.H707.UBR (K1349.lits.getD i 0)) 568 2 = true := by
+  decide +kernel
+theorem kg_1349_568 : IPChk.allR (Pts.glueIB K1349.lits KW_1349) 568 2 = true := by decide +kernel
+
+end B334.E1x.Pts.S707
